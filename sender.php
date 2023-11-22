@@ -57,7 +57,7 @@ function newsendr()
 		message_to_telegram($content_tg);
 
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@mirturizma46.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@turcentr46.ru>',
 			'content-type: text/html',
 		);
 

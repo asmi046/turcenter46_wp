@@ -178,7 +178,7 @@ function add_hite_list(elem) {
 	var mestoString = '<div data-hotelid = "'+elem.hotelId+'" data-hotelname = "'+elem.hotelName+'" data-hotelgeo = "'+elem.hotelGeo+'" data-monfName = "'+elem.monfName+'" data-photourl = "'+elem.hotelimg+'" class="hotel-number__item hotel-number__item-modal">';
 		
 		if (elem.hotelimg == "")
-			mestoString += '<div class="hotel-number__item-photo" style="background-image: url(https://www.mirturizma46.ru/wp-content/themes/MirTurizma/images/hotel-beep.svg); background-color: #ebebeb; background-size: 70%;"></div>';
+			mestoString += '<div class="hotel-number__item-photo" style="background-image: url(https://www.turcentr46.ru/wp-content/themes/MirTurizma/images/hotel-beep.svg); background-color: #ebebeb; background-size: 70%;"></div>';
 		else 
 			mestoString += '<div class="hotel-number__item-photo" style="background-image: url('+elem.hotelimg+'); background-color: #777777;"></div>';
 		
@@ -749,7 +749,7 @@ jQuery(document).ready(function($) {
 			jQuery("#msgPayFail").show();
 			jQuery("#info-msg-modal").arcticmodal({
 				afterClose: function(data, el) {
-					window.location.href = "https://www.mirturizma46.ru/bronirovanie-proezda-na-more/";
+					window.location.href = "https://www.turcentr46.ru/bronirovanie-proezda-na-more/";
 				}
 				
 			});
@@ -867,7 +867,7 @@ jQuery(document).ready(function($) {
 			
 			jQuery("#info-msg-modal").arcticmodal({
 				afterClose: function(data, el) {
-					window.location.href = "https://www.mirturizma46.ru/zabronirovano-mnoj/";
+					window.location.href = "https://www.turcentr46.ru/zabronirovano-mnoj/";
 				}
 				
 			});
@@ -1017,7 +1017,7 @@ jQuery(document).ready(function($) {
 		
 		
 		jqXHR.done(function (responce) {
-			window.location.href = "https://www.mirturizma46.ru/bronirovanie-proezda-na-more/";
+			window.location.href = "https://www.turcentr46.ru/bronirovanie-proezda-na-more/";
 			console.log(responce);
 		});
 		
@@ -1081,7 +1081,7 @@ jQuery(document).ready(function($) {
 			
 			jQuery(".itozSumm").html(localStorage.getItem('bronSumm'));
 			
-			jQuery("#hotel-number__item-photo_itog").css("background-image","url(https://www.mirturizma46.ru/wp-content/themes/MirTurizma/images/hotel-beep.svg)");
+			jQuery("#hotel-number__item-photo_itog").css("background-image","url(https://www.turcentr46.ru/wp-content/themes/MirTurizma/images/hotel-beep.svg)");
 			jQuery("#hotel-number__item-photo_itog").css("background-size","70%");
 			jQuery("#hotel-number__item-title_itog").html("Без проживания");
 			jQuery("#hotel-number__item-descr_itog").html("Выберите гостиницу");
@@ -1257,7 +1257,7 @@ jQuery(document).ready(function($) {
 		
 		jqXHR.done(function (responce) {
 			
-			window.location.href = "https://www.mirturizma46.ru/vxod/";
+			window.location.href = "https://www.turcentr46.ru/vxod/";
 		});
 		
 		jqXHR.fail(function (responce) {

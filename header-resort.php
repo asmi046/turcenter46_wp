@@ -1,9 +1,9 @@
 <?php
 if (isset($_REQUEST["relogin"]))
 {
-		SetCookie('taReg', "11", time()-3600, "/", "mirturizma46.ru");
-		SetCookie('taRegAdm', "11", time()-3600, "/", "mirturizma46.ru");
-		SetCookie('taRegName', "11", time()-3600, "/", "mirturizma46.ru");
+		SetCookie('taReg', "11", time()-3600, "/", "turcentr46.ru");
+		SetCookie('taRegAdm', "11", time()-3600, "/", "turcentr46.ru");
+		SetCookie('taRegName', "11", time()-3600, "/", "turcentr46.ru");
 		header( 'Refresh: 0; url='.get_the_permalink(12));	
 }
 $class_recreation = '';
@@ -210,7 +210,7 @@ if(is_page_template('page-turkey.php')) {
 <div class = "line headLine">
 	<div class = "centerInLine">
 		<a href = "<?php bloginfo('url'); ?>" >
-		<img class = "logo" src = "<?php bloginfo('template_url'); ?>/images/logo.png" alt = "Туристический оператор Мир туризма" title = "Туристический оператор Мир туризма" />
+		<img class = "logo" src = "<?php bloginfo('template_url'); ?>/images/logo.png" alt = "Туристический оператор ТурЦентр" title = "Туристический оператор ТурЦентр" />
 		</a>
 
 		<div class = "menu">
@@ -224,7 +224,7 @@ if(is_page_template('page-turkey.php')) {
 			<div class = "meuBtn"><i class="fas fa-bars"></i></div>
 			
 			<!-- Меню -->
-			<?php //wp_nav_menu( array('menu' => 'Главное меню', 'container' => false, 'items_wrap' => '<ul id="%1$s" class="%2$s"><li><a href = "http://www.mirturizma46.ru/turi-na-more/">Автобусные туры на море</a></li><li onclick="yaCounter29416892.reachGoal("/OpenRecall"/);" class = "zakZv"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Заказать звонок</li>%3$s</ul>' )); ?>
+			<?php //wp_nav_menu( array('menu' => 'Главное меню', 'container' => false, 'items_wrap' => '<ul id="%1$s" class="%2$s"><li><a href = "http://www.turcentr46.ru/turi-na-more/">Автобусные туры на море</a></li><li onclick="yaCounter29416892.reachGoal("/OpenRecall"/);" class = "zakZv"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Заказать звонок</li>%3$s</ul>' )); ?>
 			<?php demo_menu();?>
 
 		

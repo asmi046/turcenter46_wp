@@ -127,7 +127,7 @@ function school_tour()
 {
 
 	$headers = array(
-		'From: Сайт мир туризма <noreply@mirturizma46.ru>',
+		'From: Сайт ТурЦентр <noreply@turcentr46.ru>',
 		'content-type: text/html',
 	);
 
@@ -147,7 +147,7 @@ function sendphone()
 {
 
 	$headers = array(
-		'From: Сайт мир туризма <noreply@mirturizma46.ru>',
+		'From: Сайт ТурЦентр <noreply@turcentr46.ru>',
 		'content-type: text/html',
 	);
 
@@ -171,7 +171,7 @@ function zayavka()
 
 		// оповещение на email
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@harhat.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@harhat.ru>',
 			'content-type: text/html',
 		);
 
@@ -201,7 +201,7 @@ function question()
 	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
 
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@harhat.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@harhat.ru>',
 			'content-type: text/html',
 		);
 
@@ -231,7 +231,7 @@ function resort_send()
 	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
 
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@harhat.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@harhat.ru>',
 			'content-type: text/html',
 		);
 
@@ -261,7 +261,7 @@ function contacts_send()
 	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
 
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@harhat.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@harhat.ru>',
 			'content-type: text/html',
 		);
 
@@ -293,7 +293,7 @@ function zayavka_more()
 
 		// оповещение на email
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@harhat.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@harhat.ru>',
 			'content-type: text/html',
 		);
 
@@ -324,7 +324,7 @@ function zayavka_more_autobus()
 
 		// оповещение на email
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@harhat.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@harhat.ru>',
 			'content-type: text/html',
 		);
 
@@ -355,7 +355,7 @@ function qsend()
 
 		// оповещение на email
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@harhat.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@harhat.ru>',
 			'content-type: text/html',
 		);
 
@@ -392,8 +392,8 @@ function help_tour_block($atts)
 			</div>';
 	$html .= '<div class="help-soc">
 							<span>Также подписывайтесь на нас в социальных сетях:</span>
-							<a href="https://vk.com/mirturizma46" style="background-image: url(https://www.mirturizma46.ru/wp-content/themes/MirTurizma/images/vk.svg);"></a>
-							<a href="https://www.instagram.com/mirturizma46/" style="background-image: url(https://www.mirturizma46.ru/wp-content/themes/MirTurizma/images/instagram.svg);"></a>
+							<a href="https://vk.com/mirturizma46" style="background-image: url(https://www.turcentr46.ru/wp-content/themes/MirTurizma/images/vk.svg);"></a>
+							<a href="https://www.instagram.com/mirturizma46/" style="background-image: url(https://www.turcentr46.ru/wp-content/themes/MirTurizma/images/instagram.svg);"></a>
 				</div>';
 	return $html;
 }
@@ -720,7 +720,7 @@ function universal_send()
 	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
 
 		$headers = array(
-			'From: Сайт мир туризма <noreply@mirturizma46.ru>',
+			'From: Сайт ТурЦентр <noreply@turcentr46.ru>',
 			'content-type: text/html',
 		);
 
@@ -798,7 +798,7 @@ function universalSend()
 	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
 
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@mirturizma46.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@turcentr46.ru>',
 			'content-type: text/html',
 		);
 
@@ -836,7 +836,7 @@ function atmChecoutSend()
 	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
 
 		$headers = array(
-			'From: Сайт Мир Туризма 46 <noreply@mirturizma46.ru>',
+			'From: Сайт ТурЦентр 46 <noreply@turcentr46.ru>',
 			'content-type: text/html',
 		);
 

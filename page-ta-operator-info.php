@@ -19,7 +19,7 @@ Template Name: Вход для турагентств - информация о�
 		if (($dostup == 0)&&($registred[0]["moderate"] != 0))
 		{
 			$dostup = 1;
-			SetCookie('taReg', $registred[0]['mail'], 0, "/", "mirturizma46.ru");
+			SetCookie('taReg', $registred[0]['mail'], 0, "/", "turcentr46.ru");
 			header( 'Refresh: 0; url='.get_permalink());
 		}
 		
@@ -131,7 +131,7 @@ get_header(); ?>
 						<input name="taMail" disabled value="<?php echo $tainfo[0]->mail; ?>" placeholder="e-mail*" type="text"><br />
 						<input class = "phoneFeeld" name="taPhone" value="<?php echo $tainfo[0]->phone; ?>" placeholder="Телефон*" type="text"><br />
 						<div class="polici polici2">
-							Заполняя данную форму Вы соглашаетесь с <a href="http://www.mirturizma46.ru/politika-v-oblasti-obrabotki-personalnyx-dannyx-polzovatelej/">политикой в области обработки персональных данных</a>
+							Заполняя данную форму Вы соглашаетесь с <a href="http://www.turcentr46.ru/politika-v-oblasti-obrabotki-personalnyx-dannyx-polzovatelej/">политикой в области обработки персональных данных</a>
 						</div>
 						<input id="taSub" name="taSave" value="Сохранить изменения" type="submit"> <br/>
 						

@@ -34,13 +34,13 @@ get_header('booking');
 							<div class = "newButton" id = "regUser">Регистрация</div>
 						</form>
 						
-						<span class = "font14">У Вас уже есть аккаунт? <a href = "https://www.mirturizma46.ru/vxod/">Войдите в систему бронирования</a></span>
+						<span class = "font14">У Вас уже есть аккаунт? <a href = "https://www.turcentr46.ru/vxod/">Войдите в систему бронирования</a></span>
 					</div>
 					
 					<div style = "display:none;" class = "trueRegister">
 						<h2>Поздравляем</h2>
 						Вы успешно зарегистрировались, на указанный Вами номер телефона будет выслан Пароль для доступа к системе бронирования.</br>
-						<a href = "https://www.mirturizma46.ru/vxod/">Войти в систему бронирования</a>
+						<a href = "https://www.turcentr46.ru/vxod/">Войти в систему бронирования</a>
 					</div>
 					
 					<div style = "display:none;" class = "falseRegister">

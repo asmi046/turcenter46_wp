@@ -327,7 +327,7 @@ if (empty($banner)) {
 
         <div class="ztFlexLine">
           <picture class="ztCantry ztCantryFull">
-            <img class="of-c ztCantryFull ztCantry" loading="lazy" src="https://www.mirturizma46.ru/wp-content/uploads/2021/10/vinisuella.jpg" alt="">
+            <img class="of-c ztCantryFull ztCantry" loading="lazy" src="https://www.turcentr46.ru/wp-content/uploads/2021/10/vinisuella.jpg" alt="">
           </picture>
           <!-- <div style = "background-image:url(<?php bloginfo("template_url"); ?>/images/zagslides/oae.jpg);" class = "ztCantry ztCantryFull"></div> -->
 
@@ -363,7 +363,7 @@ if (empty($banner)) {
   <div class="centerInLine">
     <div class="aboutTextWriper">
       <div class="aboutText">
-        <h1>Туристическая компания "Мир Туризма"</h1>
+        <h1>Туристическая компания "ТурЦентр"</h1>
         <p><?php /*iinclude_page(44);*/ echo carbon_get_theme_option('main_text') ?></p>
       </div>
     </div>

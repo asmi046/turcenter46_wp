@@ -15,7 +15,7 @@
       </div>
       <div class="headen_form_blk">
 				<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Туры за границу на главной">
-				<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+				<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
         <input required type="text" name = "name_tury_za_granitsu" data-valuem = "Имя" placeholder="Имя*">
         <input required type="text" name = "tel_tury_za_granitsu" data-valuem = "Телефон" placeholder="Телефон*" class="phoneMasc"><br />
       </div>
@@ -40,7 +40,7 @@
 	      <form id="school_tour_form">
 	        <div class="headen_form_blk">
 						<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Заявка на школьный тур">
-						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
 	          <input type="tel" name="tel" required data-valuem = "Телефон*" placeholder="Телефон*">
 	          <input type="number" name="mest" required data-valuem = "Количество мест*" placeholder="Количество мест*">
 	          <input type="text" name="date" data-valuem = "Дата экскурсии" placeholder="Дата экскурсии">
@@ -74,7 +74,7 @@
 	      <form id="help_school_tour_form">
 	        <div class="headen_form_blk">
 						<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Нужна помощь в подборе школьного тура">
-						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
 	          <input type="tel" name="tel" required data-valuem = "Телефон*" placeholder="Телефон*">
 	          <input type="number" name="mest" required data-valuem = "Количество мест*" placeholder="Количество мест*">
 	          <input type="text" name="date" data-valuem = "Дата экскурсии" placeholder="Дата экскурсии">
@@ -108,7 +108,7 @@
 	      <form id="bus_arenda_bus">
 	        <div class="headen_form_blk">
 						<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Заявка на аренду автобуса">
-						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
 	          <input required type="tel" name="tel" data-valuem = "Телефон" placeholder="Телефон*">
 	          <input required type="number" name="mest"data-valuem = "Количество мест" placeholder="Количество мест*">
 	          <input required type="text" name="date" data-valuem = "Дата подачи" placeholder="Дата подачи">
@@ -139,7 +139,7 @@
 	      <form id="recall_form">
 	        <div class="headen_form_blk">
 						<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Заявка на обратный звонок">
-						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
 	          <input type="text" name="name" data-valuem = "Имя" placeholder="Имя">
 	          <input type="text" name="tel" data-valuem = "Телефон*" required placeholder="Телефон*">  
 	        </div>
@@ -174,7 +174,7 @@
 	    	</div>
 				<div class="headen_form_blk question-modal__form">
 					<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Заявка на подбор">
-					<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+					<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
 
 	      	<input type="hidden" name="page" data-valuem = "Заголовок в форме" value="<?php the_title();?>">
 	      	<input required type="text" name="name" data-valuem = "Имя*" placeholder="Имя*">
@@ -279,7 +279,7 @@
       		</div>
 					<div class="headen_form_blk">
 						<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Туры Выходного дня">
-						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
 	        	<input type="text" required name="clname" data-valuem = "Имя*" placeholder="Имя*">
 	        	<input type="text" required name="clphone" data-valuem = "Телефон*" placeholder="Телефон*" class="phoneMasc"><br />
 					</div>
@@ -304,7 +304,7 @@
 	      <form id="consult_form">
 	        <div class="headen_form_blk">
 						<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Задать вопрос по туру">
-						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+						<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
 	          <input type="text" name="name" data-valuem = "Имя" placeholder="Имя">
 	          <input type="tel" name="tel" data-valuem = "Телефон*" required placeholder="Телефон*">
 	        </div>
@@ -416,7 +416,7 @@ jQuery(document).ready(function($) {
 
 	      <form id="pay_form">
 					<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Купить тур Online">
-					<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+					<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
 
 			<div class="headen_form_blk">
 				<select id="selectwind" data-valuem = "Название тура" class="select-window__compl-prc">
@@ -554,7 +554,7 @@ jQuery(document).ready(function() {
 		<div class="box-modal" id="rbModal">
 			<div class="box-modal_close arcticmodal-close">(<span class = "closeTime"></span>) закрыть</div>
 			<img src = "<?php // bloginfo("template_url")?>/images/pupb/4st.jpg">
-			<a class = "btn" href = "http://www.mirturizma46.ru/4-baltijskie-stolicy-tur-v-pribaltiku-i-skandinaviyu/">Подробнее</a>
+			<a class = "btn" href = "http://www.turcentr46.ru/4-baltijskie-stolicy-tur-v-pribaltiku-i-skandinaviyu/">Подробнее</a>
 		</div>
 	</div>
 -->
@@ -609,7 +609,7 @@ jQuery(document).ready(function() {
 	</script>
 	<!--
 <div class = "animTrigerMain bus">
-	<a href = "https://www.mirturizma46.ru/turi-na-more/">
+	<a href = "https://www.turcentr46.ru/turi-na-more/">
 		<img src = "<?php bloginfo("template_url"); ?>/images/bus2.png" />
 	</a>
 </div>

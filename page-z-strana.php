@@ -138,7 +138,7 @@ if(empty($banner)) {
         </div>
         <div class="headen_form_blk">
           <input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Хотите выгодный тур">
-          <input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+          <input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
           <input type="hidden" name="page" data-valuem = "Заголовок формы" value="<?php echo the_title() . ' '?>">
           <input required type="text" name="name" data-valuem = "Имя" placeholder="Ваше имя">
           <input required type="tel" name="tel" data-valuem = "Телефон" placeholder="Ваш телефон">

@@ -17,7 +17,7 @@ use YooKassa\Client;
 $price = $_REQUEST["price"];
 $type = $_REQUEST["type"];
 $message = $_REQUEST["message"];
-$pay_pik = (isset($_REQUEST["pic"]))?$_REQUEST["pic"]:"https://www.mirturizma46.ru/wp-content/uploads/2023/07/autobus-belosaraika.jpg";
+$pay_pik = (isset($_REQUEST["pic"]))?$_REQUEST["pic"]:"https://www.turcentr46.ru/wp-content/uploads/2023/07/autobus-belosaraika.jpg";
 
 $thencs_page = get_the_permalink(8989); 
 $error_page = get_the_permalink(8991); 

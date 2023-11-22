@@ -12,7 +12,7 @@ get_header('booking');
 	
 	if (strcmp($_COOKIE["identity"], md5($rez[0]->name.$rez[0]->phone."mt2020")) == 0)  
 	{
-		echo "<script>window.location.href = 'https://www.mirturizma46.ru/bronirovanie-proezda-na-more/';</script>";
+		echo "<script>window.location.href = 'https://www.turcentr46.ru/bronirovanie-proezda-na-more/';</script>";
 	} 
 ?>
 
@@ -43,7 +43,7 @@ get_header('booking');
 							<div class = "newButton" id = "loginUser">Вход</div>
 						</form>
 						
-						<span class = "font14">У Вас еще нет аккаунта? <a href = "https://www.mirturizma46.ru/registraciya-v-servise-bronirovaniya">Зарегистрируйтесь в системе бронирования</a></span>
+						<span class = "font14">У Вас еще нет аккаунта? <a href = "https://www.turcentr46.ru/registraciya-v-servise-bronirovaniya">Зарегистрируйтесь в системе бронирования</a></span>
 						<br/>
 						<br/>
 						<span class = "font14">Забыли пароль? <a href = "<?php echo get_the_permalink(3211); ?>">Восстановить пароль.</a></span>
@@ -52,11 +52,11 @@ get_header('booking');
 					<div style = "display:none;" class = "trueRegister">
 						<h2>Поздравляем</h2>
 						Вы успешно зарегистрировались, на указанный Вами номер телефона будет выслан Пароль для доступа к системе бронирования.</br>
-						<a href = "https://www.mirturizma46.ru/vxod/">Войти в систему бронирования</a>
+						<a href = "https://www.turcentr46.ru/vxod/">Войти в систему бронирования</a>
 					</div>
 					
 					<div style = "display:none;" class = "falseRegister">
-						<span class = "msgDell" style = "color:red; font-size:12px;"><br/><br/>Введен не верный логин или пароль. Прпробуйте еще раз, или <a href = "https://www.mirturizma46.ru/registraciya-v-servise-bronirovaniya">пройдите регистрацию</a> </span>
+						<span class = "msgDell" style = "color:red; font-size:12px;"><br/><br/>Введен не верный логин или пароль. Прпробуйте еще раз, или <a href = "https://www.turcentr46.ru/registraciya-v-servise-bronirovaniya">пройдите регистрацию</a> </span>
 					</div>
 					
 				</div>

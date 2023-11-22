@@ -84,7 +84,8 @@
   		</div>
   		<div class="header-middle">
   			<div class="container-booking">
-  			<a href="<?php echo home_url('/');?>" class="logo-booking" style="background-image: url(<?php echo get_template_directory_uri();?>/images/mir/logo.png);"></a>
+  			<!-- <a href="<?php echo home_url('/');?>" class="logo-booking" style="background-image: url(<?php echo get_template_directory_uri();?>/images/mir/logo.png);"></a> -->
+			
 			  <img class = "only-print" src="<?php echo get_template_directory_uri();?>/images/mir/logo.png" class="logo-booking" />
 			  <div class="logo-print only-print" style="background-image: url(<?php echo get_template_directory_uri();?>/images/mir/logo.png);"></div>
   				<div class="header-schedule">

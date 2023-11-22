@@ -70,7 +70,7 @@
       <?php get_template_part('template-parts/menu-top-bus');?>
   		<div class="header-middle">
   			<div class="container-booking">
-  				<a href="<?php echo home_url('/');?>" class="logo-booking" style="background-image: url(<?php echo get_template_directory_uri();?>/images/mir/logo.png);"></a>
+  				<!-- <a href="<?php echo home_url('/');?>" class="logo-booking" style="background-image: url(<?php echo get_template_directory_uri();?>/images/mir/logo.png);"></a> -->
           <div class="logo-print only-print" style="background-image: url(<?php echo get_template_directory_uri();?>/images/mir/logo.png);"></div>
   				<div class="header-schedule">
   					<div class="header-schedule__item">Пн - Пт: 10:00 -20:00</div>

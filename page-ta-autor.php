@@ -15,7 +15,7 @@ Template Name: Вход для турагентств - авторизация
 						"<strong>Пароль:</strong> ".$rpRez[0]['pass']."<br/>";
 											
 			$headers = array(
-						'From: Мир Туризма <noreply@mirturizma46.ru>',
+						'From: ТурЦентр <noreply@turcentr46.ru>',
 						'content-type: text/html'
 			);
 
@@ -41,16 +41,16 @@ Template Name: Вход для турагентств - авторизация
 		if (($dostup == 0)&&($registred[0]["moderate"] != 0))
 		{
 			$dostup = 1;
-			SetCookie('taReg', $registred[0]['mail'], 0, "/", "mirturizma46.ru");
+			SetCookie('taReg', $registred[0]['mail'], 0, "/", "turcentr46.ru");
 			$regname = $registred[0]['naim'];
 			
 			if ($registred[0]["moderate"] == 10)
 			{
-				SetCookie('taRegAdm', $registred[0]['mail'], 0, "/", "mirturizma46.ru");
+				SetCookie('taRegAdm', $registred[0]['mail'], 0, "/", "turcentr46.ru");
 				$regname = "Администратор";
 			}
 			
-			SetCookie('taRegName', $regname, 0, "/", "mirturizma46.ru");
+			SetCookie('taRegName', $regname, 0, "/", "turcentr46.ru");
 			
 				$wpdb->insert("mt_br_log",
 				array(

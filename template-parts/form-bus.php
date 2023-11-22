@@ -8,7 +8,7 @@
 		<div class="contacts-form-tour__wrap headen_form_blk">
 			<div class="contacts-form-tour__inputs contacts-form-tour__inputs_bus">
 				<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Аренда автобусов в Курске">
-				<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.mirturizma46.ru/":get_the_permalink()?>">
+				<input type="hidden" name = "page_lnk" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://www.turcentr46.ru/":get_the_permalink()?>">
 				<input required type="tel" name="tel" data-valuem = "Телефон" placeholder="Телефон*">
 				<input required type="number" name="mest" data-valuem = "Количество мест" placeholder="Количество мест*">
 				<input required type="text" name="date" data-valuem = "Дата подачи" placeholder="Дата подачи*">

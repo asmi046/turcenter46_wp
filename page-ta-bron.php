@@ -184,7 +184,7 @@ Template Name: Вход для турагентств - бронь номеро�
 									"<strong>Коментарий:</strong> ".$_REQUEST["coment"]."<br/>";
 															
 									$headers = array(
-										'From: Мир Туризма <noreply@mirturizma46.ru>',
+										'From: ТурЦентр <noreply@turcentr46.ru>',
 										'content-type: text/html'
 									);
 

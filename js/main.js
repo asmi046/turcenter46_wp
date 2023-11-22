@@ -97,10 +97,10 @@
 })(jQuery);
 
 function relogin() {
-	document.cookie = "taReg=0; path=/; domain=mirturizma46.ru; max-age=-1";
-	document.cookie = "taRegAdm=0; path=/; domain=mirturizma46.ru; max-age=-1";
-	document.cookie = "taRegName=0; path=/; domain=mirturizma46.ru; max-age=-1";
-	window.location.href = "https://mirturizma46.ru/";
+	document.cookie = "taReg=0; path=/; domain=turcentr46.ru; max-age=-1";
+	document.cookie = "taRegAdm=0; path=/; domain=turcentr46.ru; max-age=-1";
+	document.cookie = "taRegName=0; path=/; domain=turcentr46.ru; max-age=-1";
+	window.location.href = "https://turcentr46.ru/";
 }
 
 jQuery(document).ready(function ($) {
@@ -610,7 +610,7 @@ jQuery(document).ready(function ($) {
 				// jQuery('#zayavTurMoreModal').arcticmodal("close");
 				// jQuery('#messgeModal').arcticmodal();
 
-				window.location.href = "http://www.mirturizma46.ru/spasibo-za-obrashhenie/";
+				window.location.href = "http://www.turcentr46.ru/spasibo-za-obrashhenie/";
 
 			});
 

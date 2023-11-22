@@ -79,7 +79,7 @@ get_header('booking');
 					jQuery("#msgPayOk").show();
 					jQuery("#info-msg-modal").arcticmodal({
 						afterClose: function(data, el) {
-							window.location.href = "https://www.mirturizma46.ru/zabronirovano-mnoj/";
+							window.location.href = "https://www.turcentr46.ru/zabronirovano-mnoj/";
 						}
 						
 					});

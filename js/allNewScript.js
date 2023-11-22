@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
 			
 			// jQuery("#new_obr_zv").arcticmodal("close");
 			// jQuery("#info-msg-modal").arcticmodal();
-			window.location.href = "https://www.mirturizma46.ru/spasibo-za-zayavku/";
+			window.location.href = "https://www.turcentr46.ru/spasibo-za-zayavku/";
 		});
 		
 		jqXHR.fail(function (responce) {

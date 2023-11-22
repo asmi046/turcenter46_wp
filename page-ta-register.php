@@ -109,7 +109,7 @@ Template Name: Вход для турагентств - регистрация
 														"<a href = '".get_bloginfo("url")."/?p=1351&mail=".$_POST['taMail']."'>Активировать</a>";
 											
 											$headers = array(
-												'From: Мир Туризма <noreply@mirturizma46.ru>',
+												'From: ТурЦентр <noreply@turcentr46.ru>',
 												'content-type: text/html'
 											);
 
@@ -149,7 +149,7 @@ Template Name: Вход для турагентств - регистрация
 						<input name="prefix" value="<?php echo $prefix; ?>" type="hidden">
 						
 						<div class="polici polici2">
-							Заполняя данную форму Вы соглашаетесь с <a href="http://www.mirturizma46.ru/politika-v-oblasti-obrabotki-personalnyx-dannyx-polzovatelej/">политикой в области обработки персональных данных</a>
+							Заполняя данную форму Вы соглашаетесь с <a href="http://www.turcentr46.ru/politika-v-oblasti-obrabotki-personalnyx-dannyx-polzovatelej/">политикой в области обработки персональных данных</a>
 						</div>
 						<input id="taSub" name="taReg" value="Регистрация" type="submit"> <br/>
 					</form>

@@ -7,12 +7,12 @@ opcache_reset();
 nocache_headers();
 if (isset($_REQUEST["relogin"]))
 {
-	setcookie('taReg', "", time()-113600, "/", "mirturizma46.ru");
-	setcookie('taRegAdm', "", time()-113600, "/", "mirturizma46.ru");
-	setcookie('taRegName', "", time()-113600, "/", "mirturizma46.ru");
+	setcookie('taReg', "", time()-113600, "/", "turcentr46.ru");
+	setcookie('taRegAdm', "", time()-113600, "/", "turcentr46.ru");
+	setcookie('taRegName', "", time()-113600, "/", "turcentr46.ru");
 	
 	
-	//header( 'Refresh: 5; url=https://www.mirturizma46.ru/vxod-dlya-turagentstv');
+	//header( 'Refresh: 5; url=https://www.turcentr46.ru/vxod-dlya-turagentstv');
 	
 }
 
@@ -232,7 +232,7 @@ if(is_page_template('page-turkey.php') || is_page_template('page-fire.php')) {
 <div class = "line headLine">
 	<div class = "centerInLine">
 		<a href = "<?php bloginfo('url'); ?>" >
-		<img class = "logo" src = "<?php bloginfo('template_url'); ?>/images/logo.png" alt = "Туристический оператор Мир туризма" title = "Туристический оператор Мир туризма" />
+		<img class = "logo" src = "<?php bloginfo('template_url'); ?>/images/logo.png" alt = "Туристический оператор ТурЦентр" title = "Туристический оператор ТурЦентр" />
 		</a>
 
 		<div class = "menu">
@@ -249,7 +249,7 @@ if(is_page_template('page-turkey.php') || is_page_template('page-fire.php')) {
 			</div>
 			
 			<!-- Меню -->
-			<?php //wp_nav_menu( array('menu' => 'Главное меню', 'container' => false, 'items_wrap' => '<ul id="%1$s" class="%2$s"><li><a href = "http://www.mirturizma46.ru/turi-na-more/">Автобусные туры на море</a></li><li onclick="yaCounter29416892.reachGoal("/OpenRecall"/);" class = "zakZv"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Заказать звонок</li>%3$s</ul>' )); ?>
+			<?php //wp_nav_menu( array('menu' => 'Главное меню', 'container' => false, 'items_wrap' => '<ul id="%1$s" class="%2$s"><li><a href = "http://www.turcentr46.ru/turi-na-more/">Автобусные туры на море</a></li><li onclick="yaCounter29416892.reachGoal("/OpenRecall"/);" class = "zakZv"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Заказать звонок</li>%3$s</ul>' )); ?>
 			<?php demo_menu();?>
 			
 			<?php include('callback-wrapper.php')?>

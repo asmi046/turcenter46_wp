@@ -25,8 +25,8 @@
 		<div class="header-soc-wrap header-soc-wrap__burg">
 			<a class="header-soc-wrap__burg-icon header-soc-wrap__burg-icon-01" target="_blank" href="https://vk.com/mirturizma46"></a>
 			<a class="header-soc-wrap__burg-icon header-soc-wrap__burg-icon-02" target="_blank" href="https://www.instagram.com/mirturizma46/"></a>
-			<!-- <a target="_blank" href="https://vk.com/mirturizma46" style="background-image: url(https://www.mirturizma46.ru/wp-content/themes/MirTurizma/images/vk-white.svg);"></a>
-			<a target="_blank" href="https://www.instagram.com/mirturizma46/" style="background-image: url(https://www.mirturizma46.ru/wp-content/themes/MirTurizma/images/instagram-white.svg);"></a> -->
+			<!-- <a target="_blank" href="https://vk.com/mirturizma46" style="background-image: url(https://www.turcentr46.ru/wp-content/themes/MirTurizma/images/vk-white.svg);"></a>
+			<a target="_blank" href="https://www.instagram.com/mirturizma46/" style="background-image: url(https://www.turcentr46.ru/wp-content/themes/MirTurizma/images/instagram-white.svg);"></a> -->
 		</div>
 		<a href="#" onclick="ym(29416892,'reachGoal','OpenRecall')" class="g-button obrzv-oppen obrzv-oppen-2" data-winheader="Заявка на обратный звонок" data-winsubheader="Оставьте заявку и  мы свяжемся с вами в течении 15 минут.">Заказать звонок</a>
 	</ul>

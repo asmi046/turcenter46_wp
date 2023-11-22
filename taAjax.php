@@ -299,7 +299,7 @@ function addAllMesta($allRezMesta, $razmeshenie) {
 
 		
 		$headers = array(
-			'From: Мир Туризма <noreply@mirturizma46.ru>',
+			'From: ТурЦентр <noreply@turcentr46.ru>',
 			'content-type: text/html'
 		);
 
@@ -376,7 +376,7 @@ function rezervMesto($reisID, $mestoNum, $direct, $F, $I, $O, $pasportnum, $phon
 					"<strong>Коментарий:</strong> ".$coment."<br/>";
 											
 					$headers = array(
-						'From: Мир Туризма <noreply@mirturizma46.ru>',
+						'From: ТурЦентр <noreply@turcentr46.ru>',
 						'content-type: text/html'
 					);
 

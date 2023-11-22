@@ -11,7 +11,7 @@ if(empty($banner)) {
 ?>
 	<section class="booking-title-wrapper" style="background-image: url(<?php echo $banner?>);">
 		<div class="container-booking">
-			<h1 class="booking-title">Благодарим Вас за обращение в "Мир туризма"</h1>
+			<h1 class="booking-title">Благодарим Вас за обращение в "ТурЦентр"</h1>
 		</div>
 	</section>
 	<div class = "line PageContent singlePage blagPage">

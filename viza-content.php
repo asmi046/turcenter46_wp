@@ -1,5 +1,5 @@
 <div class = 'turElem'>
-	<a target="_blank" href = 'https://www.mirturizma46.ru/vizovyj-centr/'>
+	<a target="_blank" href = 'https://www.turcentr46.ru/vizovyj-centr/'>
 		<div class = 'turThumb'>
 			<img width="380" height="253" src="<?php bloginfo("template_url");?>/images/viza.jpg" class="attachment-turImg size-turImg wp-post-image">
 		</div>

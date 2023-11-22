@@ -1,7 +1,7 @@
 <div class = 'turElem'>
-	<a target="_blank" href = 'http://www.mirturizma46.ru/turi-na-more/'>
+	<a target="_blank" href = 'http://www.turcentr46.ru/turi-na-more/'>
 		<div class = 'turThumb'>
-			<img width="380" height="253" src="http://www.mirturizma46.ru/wp-content/uploads/2018/06/mt.jpg" class="attachment-turImg size-turImg wp-post-image">
+			<img width="380" height="253" src="http://www.turcentr46.ru/wp-content/uploads/2018/06/mt.jpg" class="attachment-turImg size-turImg wp-post-image">
 		</div>
 		
 		<div class = 'turInfoElem'>

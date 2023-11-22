@@ -951,13 +951,13 @@ get_header(); ?>
 									?>
 									
 									<option selected disabled value = "">Выберите менеджера</option> 
-									<!-- <option value = "Владимир (Мир туризма)">Владимир (Мир туризма)</option> -->
+									<!-- <option value = "Владимир (ТурЦентр)">Владимир (ТурЦентр)</option> -->
 								
-									<option value = "Кристина (Мир туризма)">Кристина (Мир туризма)</option>
-									<option value = "Ирина (Мир туризма)">Ирина (Мир туризма)</option>
-									<!--<option value = "Наталья (Мир туризма)">Наталья (Мир туризма)</option>-->
-									<option value = "Елена Владимировна">Елена Владимировна (Мир туризма)</option>
-									<option value = "Павел Алексеевич">Павел Алексеевич (Мир туризма)</option>
+									<option value = "Кристина (ТурЦентр)">Кристина (ТурЦентр)</option>
+									<option value = "Ирина (ТурЦентр)">Ирина (ТурЦентр)</option>
+									<!--<option value = "Наталья (ТурЦентр)">Наталья (ТурЦентр)</option>-->
+									<option value = "Елена Владимировна">Елена Владимировна (ТурЦентр)</option>
+									<option value = "Павел Алексеевич">Павел Алексеевич (ТурЦентр)</option>
 										<?php } else { ?>
 											<option selected value = "<?php echo $registred[0]["person"]; ?>"><?php echo $registred[0]["person"]; ?></option> 
 										<?php } ?>

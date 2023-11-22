@@ -152,7 +152,7 @@ function countDaysBetweenDates($d1, $d2)
 				file_get_contents("https://" . SMS_LOGIN . ":" . SMS_TOKEN . "@gate.smsaero.ru/v2/sms/send?number=+79192777557&text=".$sendMsgMain."&sign="."Mir_Turizma"."&channel=SERVICE");
 				
 				$headers = array(
-					'From: Мир Туризма <noreply@mirturizma46.ru>',
+					'From: ТурЦентр <noreply@turcentr46.ru>',
 					'content-type: text/html'
 				);
 
@@ -237,10 +237,10 @@ function countDaysBetweenDates($d1, $d2)
 			
 			if ($rez[0]->pass === md5($_REQUEST["userpass"]."mt2020"))
 			{
-				setcookie('identity', md5($rez[0]->name.$rez[0]->phone."mt2020"), 0, '/', "mirturizma46.ru");
-				setcookie('phone', $_REQUEST["userphone"], 0, '/', "mirturizma46.ru");
-				setcookie('name', $rez[0]->name, 0, '/', "mirturizma46.ru");
-				setcookie('uflmail', $rez[0]->mail, 0, '/', "mirturizma46.ru");
+				setcookie('identity', md5($rez[0]->name.$rez[0]->phone."mt2020"), 0, '/', "turcentr46.ru");
+				setcookie('phone', $_REQUEST["userphone"], 0, '/', "turcentr46.ru");
+				setcookie('name', $rez[0]->name, 0, '/', "turcentr46.ru");
+				setcookie('uflmail', $rez[0]->mail, 0, '/', "turcentr46.ru");
 				wp_die( 'Вы авторизовались');
 				
 			} else {
@@ -265,10 +265,10 @@ function countDaysBetweenDates($d1, $d2)
 	  
 	  if ( check_ajax_referer( 'NEHERTUTLAZIT', 'nonce', false ) ) {
 				
-				setcookie('identity', "", time()-3600, '/', "mirturizma46.ru");
-				setcookie('phone', "", time()-3600, '/', "mirturizma46.ru");
-				setcookie('name', "", time()-3600, '/', "mirturizma46.ru");
-				setcookie('uflmail', "", time()-3600, '/', "mirturizma46.ru");
+				setcookie('identity', "", time()-3600, '/', "turcentr46.ru");
+				setcookie('phone', "", time()-3600, '/', "turcentr46.ru");
+				setcookie('name', "", time()-3600, '/', "turcentr46.ru");
+				setcookie('uflmail', "", time()-3600, '/', "turcentr46.ru");
 				wp_die( 'Вы вышли');
 				
 	  } else {
@@ -534,7 +534,7 @@ function countDaysBetweenDates($d1, $d2)
 				$message .= "<strong>Имя: </strong>".$_COOKIE["name"]."<br/>";
 				
 				$headers = array(
-					'From: Мир Туризма <noreply@mirturizma46.ru>',
+					'From: ТурЦентр <noreply@turcentr46.ru>',
 					'content-type: text/html'
 				);
 
@@ -658,8 +658,8 @@ function countDaysBetweenDates($d1, $d2)
 				
 			if (!empty($rez)) {
 				
-				setcookie('identity', md5($_REQUEST["username"].$_REQUEST["userphone"]."mt2020"), 0, '/', "mirturizma46.ru");
-				setcookie('phone', $_REQUEST["userphone"], 0, '/', "mirturizma46.ru");
+				setcookie('identity', md5($_REQUEST["username"].$_REQUEST["userphone"]."mt2020"), 0, '/', "turcentr46.ru");
+				setcookie('phone', $_REQUEST["userphone"], 0, '/', "turcentr46.ru");
 				
 				wp_die($rez);	
 			} else {
@@ -741,7 +741,7 @@ function countDaysBetweenDates($d1, $d2)
 	  
 	  if ( check_ajax_referer( 'NEHERTUTLAZIT', 'nonce', false ) ) {
 			$headers = array(
-				'From: Мир Туризма <noreply@mirturizma46.ru>',
+				'From: ТурЦентр <noreply@turcentr46.ru>',
 				'content-type: text/html'
 			);
 			
