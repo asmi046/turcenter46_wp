@@ -1,0 +1,4066 @@
+﻿/*
+Theme Name: Мир Туризма 46
+Theme URI: 
+Author: ASMI Studio
+Author URI: 
+Description: Мир Туризма 46
+Version: 1.0
+Tags: Мир Туризма 46
+*/
+
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBold"; */
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProItalic"; */
+@font-face {
+    font-family: "MyriadProItalic";
+    src: url("fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: url("fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+html ,body{
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	text-decoration:none;
+	color:#00b4f1;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+hr {
+	height:2px;
+	border:none;
+	background-color:#66b8d2;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;
+    margin:0;}
+	
+
+label {
+	float:left;
+	width:100%;
+}
+
+
+
+select, textarea, input[type=password], input[type=tel], input[type=email], input[type=text] {
+	border:2px solid #a8a9ad;
+	width:220px;
+	height:35px;
+	padding:0 2%;
+}
+
+h1, h2, h3, h4, h5{
+	text-transform:uppercase;
+}
+
+h2 {
+	font-size:20px;
+}
+
+textarea{
+
+}
+
+table {
+}
+
+th,td{
+}
+
+th{
+	
+}
+
+td{
+	
+}
+
+ul {
+	list-style-image: url("images/listElem2.png");
+}
+
+strong{
+	font-family: "MyriadProBold";
+	font-weight:500;
+}
+
+.grayText {
+	color:#a1a1a3;
+}
+
+button, input[type=submit], .btn {
+	border: none;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none !important;
+	cursor: pointer;
+	background: #d8df20;
+	padding: 5px 10px;
+	font-family: "MyriadProSemiBold";
+	font-size: 16px;
+	text-shadow: none;
+	-webkit-transition: All 0.5s ease;
+	-moz-transition: All 0.5s ease;
+	-o-transition: All 0.5s ease;
+	-ms-transition: All 0.5s ease;
+	transition: All 0.5s ease;
+}
+
+input[type=submit]:hover, .btn:hover { 
+	background:#f2e30c;
+}
+
+.main {
+	width:100%;
+	margin:0px;
+	padding:0px;
+	font-family: "MyriadProRegular";
+}
+
+.line {
+	width:100%;
+	float:left;
+	min-height:40px;
+}
+
+.centerInLine {
+	width:100%;
+	max-width:1200px;
+	margin:0px auto;
+}
+
+.headLine {
+	min-height:85px;
+}
+
+.logo{
+	z-index:100000;
+	position:absolute;
+}
+
+.menu {
+	float: right;
+	margin-top: 0;
+}
+
+.menu ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	height:100%;
+	line-height:40px;
+}
+
+.menu ul li:last-child{ 
+	margin-right:0px;
+}
+
+.menu ul li{ 
+	float:left;
+	margin-right:20px;
+}
+
+.menu ul li a{ 
+	text-transform:uppercase;
+	color:black;
+}
+
+.zakZv {
+	text-transform:uppercase;
+	cursor:pointer;
+}
+
+.zakZv i{ 
+	color: #0f5da7;
+    font-size: 20px;
+	
+	-webkit-animation-name: phone;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	animation-name: phone;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes phone {
+    0% {
+        transform:scale(1);
+    }
+    10% {
+        transform:scale(1.3);
+    }
+	
+	20% {
+        transform:scale(1);
+    }
+	
+	30% {
+        transform:scale(1.3);
+    }
+	
+	40% {
+        transform:scale(1);
+    }
+	
+	100% {
+        transform:scale(1);
+    }
+}
+
+@-webkit-keyframes phone {
+       0% {
+        transform:scale(1);
+    }
+    10% {
+        transform:scale(1.3);
+    }
+	
+	20% {
+        transform:scale(1);
+    }
+	
+	30% {
+        transform:scale(1.3);
+    }
+	
+	40% {
+        transform:scale(1);
+    }
+	
+	100% {
+        transform:scale(1);
+	}
+}
+
+.obrZvnBlk {
+    background: white none repeat scroll 0 0;
+    display: none;
+    height: 250px;
+    margin-top: 51px;
+    position: absolute;
+    max-width: 300px;
+	width:94%;
+	padding:2%;
+    z-index: 999999999;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius:10px
+}
+
+.obrZvnBlk .obrZvnBlkClose{ 
+	position: absolute;
+    right: 15px;
+    font-size: 20px;
+    color: #0f5da7;
+    top: 16px;
+	cursor:pointer;
+}
+
+.sendSpiner {
+    display: none;
+    position: relative;
+    float: left;
+    font-size: 29px;
+    margin-left: 20px;
+    color: #0f5da7;
+}
+
+.obrZvnBlk form{
+	
+}
+
+.obrZvnBlk form label{width:93%;}
+.obrZvnBlk form input{width:93%; margin-bottom:10px;}
+.obrZvnBlk form .btn{
+	    width: auto;
+    float: left;
+}
+ 
+.obrZvnBlk h2{ 
+	margin-top:0;
+}
+
+.banerLine {
+	height:335px;
+}
+
+.banerLineInPage {
+	height:240px!important;
+}
+
+.allB {
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+.allB .b {
+	width:100%;
+	height:100%;
+	text-align:center;
+	overflow:hidden;
+	position:absolute;
+	display:none;
+}
+
+.fs32 {
+	font-size:32px;
+}
+
+
+
+#bn1 {
+	display:block; background:url(images/b/minsk.jpg); background-position:center center; background-size:cover;
+}
+
+#bn2 {
+	background:url(images/b/sergievPossadBig.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+
+#bn3 {
+	background:url(images/b/kreml-elka.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+
+#bn4 {
+	background:url(images/b/parom.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+
+
+#bn5 {
+	background:url(images/b/minsk-win.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+
+#bn6 {
+	background:url(images/b/ngSochiBig.jpg);
+	background-position:center center;
+	background-size:cover;
+	
+}
+
+#bn7 {
+	background:url(images/b/moskvaNgBig.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+
+#bn8 {
+	background:url(images/b/budapeshtBig.jpg);
+	background-position:center center;
+	background-size:cover;
+}
+
+
+
+
+
+#turiNaMore {
+	background:url(images/b/turiNaMore.jpg);
+	background-position:center center;
+	display:block;
+}
+
+.allB.banerImg {
+	width: 100%;
+	height: auto;
+	z-index: 1000;
+	position: absolute;
+	left: 0px;
+	display:none;
+}
+
+.pph {
+	/*background:url(images/pph.png);*/
+	
+	/*padding:10px 30px;*/
+	margin-top:85px;
+}
+
+.allB .banerText {
+	/*
+	width: 500px;
+    color: black;
+    font-size: 32px;
+    font-family: "MyriadProRegular";
+    line-height: 1.1;
+    position: absolute;
+    left: 80px;
+    height: 540px;
+    background: url(images/nwf.png);
+    padding: 0 20px;
+    border-radius: 450px;
+    top: 89px;
+    text-align: center;
+	*/
+	
+
+
+	width: 310px;
+    color: white;
+    font-size: 32px;
+    text-align: left;
+    font-family: "MyriadProBold";
+  
+	text-shadow: 
+		-0   -2px 0   #253B92,
+		 0   -2px 0   #253B92,
+		-0    2px 0   #253B92,
+		 0    2px 0   #253B92,
+		-2px -0   0   #253B92,
+		 2px -0   0   #253B92,
+		-2px  0   0   #253B92,
+		 2px  0   0   #253B92,
+		-1px -2px 0   #253B92,
+		 1px -2px 0   #253B92,
+		-1px  2px 0   #253B92,
+		 1px  2px 0   #253B92,
+		-2px -1px 0   #253B92,
+		 2px -1px 0   #253B92,
+		-2px  1px 0   #253B92,
+		 2px  1px 0   #253B92,
+		-2px -2px 0   #253B92,
+		 2px -2px 0   #253B92,
+		-2px  2px 0   #253B92,
+		 2px  2px 0   #253B92,
+		-2px -2px 0   #253B92,
+		 2px -2px 0   #253B92,
+		-2px  2px 0   #253B92,
+		 2px  2px 0   #253B92;
+    
+	float: left;
+    line-height: 1.1;
+    position: absolute;
+    left: -76px;
+    height: 340px;
+    background: url(images/wf.png);
+    padding: 0 20px;
+
+
+/*
+
+	width: 310px;
+    color: white;
+    font-size: 32px;
+    text-align: left;
+    font-family: "MyriadProBold";
+  
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    
+	float: left;
+    line-height: 1.1;
+    position: absolute;
+    left: -76px;
+    height: 340px;
+    background: url(images/pph2.png);
+    padding: 0 20px;
+
+
+	width: 525px;
+	color: white;
+	font-size: 42px;
+	text-align: left;
+	font-family: "MyriadProBold";
+	margin-top: 45px;
+	margin-left: 180px;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	float: left;
+	line-height: 1.1;
+	position:relative;
+	height:250px;
+*/
+}
+
+.allB .banerText .btn{ 
+	bottom:0;
+}
+
+.allB .centerInLine{
+	position:relative;
+	z-index:10000;
+}
+
+
+.firstM {
+	width: 180px;
+	height: 53px;
+	position: absolute;
+	background: url(images/horFl.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	right: 0px;
+	top: 15%;
+	z-index: 1000000;
+	font-family: "MyriadProBold";
+	font-size: 12px;
+	padding: 7px 0px 10px 47px;
+}
+
+.perekluhatel {
+	position:absolute;
+	width:auto;
+	height:20px;
+	z-index:10000;
+	bottom:10px;
+	left:50%;
+	margin-left:390px;
+}
+
+.perekluhatel .per{
+	width:20px;
+	height:20px;
+	background-color:white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float:left;
+	margin-right:15px;
+	cursor:pointer;
+}
+
+.perekluhatel .per:last-child{
+	margin-right:0px;
+} 
+
+.perekluhatel .perSel {
+	background-color:#d8df20;
+}
+
+.topTur {
+		background:url(images/turBaner.jpg);
+		background-size:cover;
+		background-position:center center;
+		min-height:1280px;
+}
+
+.exkursTur {
+		background:url(images/turBaner.jpg);
+		background-size:cover;
+		background-position:center center;
+}
+
+.ngTour .turElem{
+-webkit-box-shadow: 0px 0px 7px 1px rgba(194,194,194,1);
+-moz-box-shadow: 0px 0px 7px 1px rgba(194,194,194,1);
+box-shadow: 0px 0px 7px 1px rgba(194,194,194,1);
+}
+
+.ngTour .aboutCategory {
+	-webkit-box-shadow: 0px 0px 7px 1px rgba(194,194,194,1);
+-moz-box-shadow: 0px 0px 7px 1px rgba(194,194,194,1);
+box-shadow: 0px 0px 7px 1px rgba(194,194,194,1);
+padding-left:2%;
+padding-right:2%;
+width:94%;
+background-color:white;
+margin-bottom:30px;
+}
+
+.ngTour {
+	background:url(images/novtour.jpg);
+	background-repeat:repeat;
+}
+
+.osnNapr {
+	width:100%;
+	padding:10px 0px;
+	min-height:30px;
+	float:left;
+}
+
+.osnNaprFixed {
+	background-color: #f3f3f5;
+	display: none;
+	position: fixed;
+	width: 100%;
+	z-index: 100000000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding-bottom:34px!important;
+}
+
+.osnNaprFixedTour .turnavi{ 
+	max-width:200px;
+	margin-right:20px;
+}
+
+#tt56 {
+    max-width: 496px;
+    width: auto;
+}
+
+.osnNaprFixedTour .centerInLine .turnavi:nth-child(5n){ 
+
+}
+
+.turnavi, .osnNapr a{
+	border: none;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none !important;
+	cursor: pointer;
+	/*background: #00bef2;*/
+	background-color:#0f5da7;
+	padding: 5px 10px;
+	font-family: "MyriadProRegular";
+	font-size: 18px;
+	text-shadow: none;
+	float:left;
+	margin-right:1%;
+	width:17.3%;
+	text-align:center;
+	-webkit-transition: All 0.5s ease;
+	-moz-transition: All 0.5s ease;
+	-o-transition: All 0.5s ease;
+	-ms-transition: All 0.5s ease;
+	transition: All 0.5s ease;
+	height:27px;
+	line-height:27px;
+	margin-top:10px;
+	margin-bottom:10px;
+	position:relative;
+}
+/*
+.animateBtn {
+	-webkit-animation-name: spin;
+    -webkit-animation-duration: 5000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    5% {
+        transform:rotate(4deg);
+    }
+	
+	10% {
+        transform:rotate(0deg);
+    }
+	
+	15% {
+        transform:rotate(-4deg);
+    }
+	
+	20% {
+        transform:rotate(0deg);
+    }
+	
+	100% {
+        transform:rotate(0deg);
+    }
+}
+
+
+@-webkit-keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    5% {
+        transform:rotate(4deg);
+    }
+	
+	10% {
+        transform:rotate(0deg);
+    }
+	
+	15% {
+        transform:rotate(-4deg);
+    }
+	
+	20% {
+        transform:rotate(0deg);
+    }
+	
+	100% {
+        transform:rotate(0deg);
+    }
+}
+
+*/
+
+
+.osnNapr a:last-child{ 
+	margin-right:0px;
+}
+
+
+.navSelect, .turnavi:hover {
+	background:#5bb5d8;	
+	/*#d8df20;*/
+
+}
+
+.osnNapr a:hover{ 
+	background: #5bb5d8;
+	
+}
+
+/*---------------*/
+.mainAllTur {
+	width:100%;
+	float:left;
+}
+
+.turElem {
+	width: 100%;
+	max-width: 380px;
+	height: 440px;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	background-color: white;
+}
+
+.mainAllTur .turElem:nth-child(3n) {
+	margin-right:0px;	
+}
+
+
+.turThumb {
+	position:relative;
+	width:100%;
+	height:auto;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+}
+
+.turThumb img{
+	width:100%;
+	height: auto;
+}
+
+.turThumb .text {
+	width: 94%;
+	background: url(images/bg1.png);
+	height: 45px;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1000;
+	color: white;
+	padding: 5px 3%;
+	font-size: 16px;
+	text-align:left;
+}
+
+.turThumb .text i{
+	font-size: 22px;
+	margin-right:15px
+}
+
+.turThumb .text .line1{ 
+	width:100%;
+	float:left;
+}
+
+.turThumb .text .line2 {
+	width: 93%;
+	float: left;
+	padding-left: 7%;
+}
+
+.turInfoElem {
+	width:90%;
+	height:140px;
+	padding:0 5%;
+}
+
+.turInfoElem h2 {
+	margin: 5px 0;
+	font-family: "MyriadProRegular";
+	font-weight: normal;
+	font-size:24px;
+	color:black;
+	text-transform:none;
+}
+
+.turInfoElem a:hover { 
+	text-decoration:none;
+}
+
+.turInfoElem .upp {
+	float: left;
+	width: 100%;
+	height: 125px;
+	color:black;
+}
+
+.turInfoElem .upp p{ 
+	margin-top:0px;
+}
+
+.turInfoElem .boot {
+    border-top: 2px solid #a1a1a3;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 7%;
+    width: 86%;
+}
+
+.turInfoElem .bootNo {
+	display:none;
+}
+
+.turInfoElem .boot .price{ 
+	width:50%;
+	float:left;
+	font-size:28px;
+	color:black;
+}
+
+.turInfoElem .boot .priceSmile {
+	font-size:22px;
+	width:50%;
+}
+
+.turInfoElem .boot .podr{ 
+	width:50%;
+	float:left;
+	text-align:right;
+	font-size:22px;
+	text-transform:uppercase;
+	color:#a1a1a3;
+}
+
+.turInfoElem .boot .podrSmile { 
+	font-size: 18px;
+    width: 37%;
+    float: right;
+} 
+
+.turInfoElem .boot .podr a{ 
+	text-transform:uppercase;
+	color:#a1a1a3;
+}
+
+.tgift {
+    float: right;
+    width: 24px;
+    height: auto;
+    margin-top: 3px;
+	cursor:pointer;
+}
+
+.turElem:hover .tgift {
+	-webkit-animation-name: phone;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: 2;
+    -webkit-animation-timing-function: linear;
+	
+	animation-name: phone;
+    animation-duration: 2000ms;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+
+/*---------------*/
+
+
+.about {
+	width: 100%;
+	min-height: 210px;
+	background: url(images/bg2.png);
+	float: left;
+	color: white;
+	padding: 35px 0;
+}
+
+.aboutTextWriper {
+	background-image: linear-gradient(to right, #61bcd7 40%, transparent 40%, transparent 60%, #61bcd7 60%);
+	background-size: 100% 5px;
+	background-repeat: no-repeat;
+	margin: 10px 10%;
+	min-height: 100px;
+	width: 80%;
+}
+
+.aboutText {
+	border: 5px solid #61bcd7;
+	text-align: center;
+	width: 89%;
+	min-height: 100px;
+	border-top: 0;
+	padding: 0 5% 20px;
+}
+
+.aboutText h2 {
+	margin: 0px;
+	margin-top: -10px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.zayavka {
+	min-height:400px;
+}
+
+.zayavkaAllWidth {
+	background: rgba(0, 0, 0, 0) url("images/formBgBig.jpg") repeat scroll center bottom / 100% auto;
+	min-height:200px;
+}
+
+.zayavkaAllWidth .formBlk {
+	padding: 0px 100px;
+	background:none;
+	padding-left:0px;
+}
+
+
+.formBlk {
+	min-height: 210px;
+	background: url(images/formBg.jpg);
+	margin: 45px 0;
+	padding: 50px 100px;
+}
+
+.formBlk h2{ 
+	display:inline-block;
+	border-bottom:2px solid #00b4f1;
+	font-size:42px;
+	text-transform:uppercase;
+	margin-top:0px;
+	margin-bottom:20px;
+}
+
+.zayavkaForm {
+	
+}
+
+.zayavkaForm input{
+	float:left;
+	margin-right:10px;
+}
+
+.taMestoRezervForm .btn, .taAuthForm .btnReg, .taAuthForm input[type=submit], #stbF2 input[type=submit], .zayavkaForm input[type=submit]{
+	height:38px;
+	width:200px;
+	background:#00b4f1;
+	color:white;
+}
+
+.taAuthForm .btnReg {
+    background-color: green;
+    padding: 9px 10px;
+}
+
+ #stbF2 input[type=submit]:hover, .zayavkaForm input[type=submit]:hover {
+	background:#f2e30c;
+	color:black;
+}
+
+#stbF2 img{
+	width:90%;
+}
+
+.wpcf7-response-output {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	border: none !important;
+	background: url("images/1.png");
+	color: white;
+	font-size: 32px;
+	z-index: 100000000;
+	top: 0;
+	left: 0;
+	margin: 0px !important;
+	font-family: "MyriadProBold";
+	text-align:center;
+	
+	line-height:5;
+}
+
+.wpcf7-not-valid {
+	background: url("images/redTrBg.png")!important;
+}
+
+.wpcf7-not-valid-tip { 
+	display:none!important;
+}
+
+.contacts {
+	min-height:350px;
+	position:relative;
+}
+
+
+.mapInMain {
+	width:50%;
+	height:350px;
+	float:left
+}
+
+#leftMap {
+	
+}
+
+#rightMap {
+	
+}
+
+.contactsInCenter {
+	width: 280px;
+	height: 350px;
+	background-color: white;
+	position: absolute;
+	margin-left: -160px;
+	left: 50%;
+	padding: 0px 20px;
+	z-index:1000;
+}
+
+.contactsInCenter h2 {
+	font-size: 42px;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+.contactsInCenter .adres {
+	width: 88%;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 12%;
+	font-size: 18px;
+	cursor:pointer;
+}
+
+#adres1 {
+	border-bottom:2px solid #00b4f1;
+}
+
+#adres2 {
+	border-bottom:2px solid #cfd800;
+}
+
+.contactsInCenter .phone {
+	float: left;
+	width: 100%;
+	font-size: 42px;
+	margin-bottom: 20px;
+}
+
+.contactsInCenter .timeWork {
+	float: left;
+	width: 100%;
+	font-size:18px;
+}
+
+.phoneCode {
+	font-size:16px;
+	color:#a1a1a3;
+	
+
+	
+}
+
+.contactsInCenter .phoneCode{
+		    height: 50px;
+    float: left;
+    line-height: 51px;
+    margin-right: 10px;
+}
+
+.footer  {
+	min-height:280px;
+	border-top:5px solid #61bcd7;
+	background:#58585a;
+}
+
+
+
+.stbF {
+	width:30%;
+	min-height:100px;
+	margin-right:5%;
+	color:white;
+	float:left;
+}
+
+.stbF h2{ 
+	width:100%;
+	max-width:200px;
+	display:inline-block;
+	border-bottom:2px solid gray;
+	font-family: "MyriadProRegular";
+	font-weight:normal;
+	padding-bottom:5px;
+	text-transform:uppercase;
+}
+
+.stbF ul{ 
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	float:left;
+}
+
+.stbF ul li{ 
+	margin:3px 0px;
+}
+
+.stbF a {
+	color:white;
+}
+
+#stbF1 {
+	width:20%;
+}
+
+#stbF2 {
+	width:40%;
+}
+
+#stbF3 i {
+	float:left;
+	font-size:26px;
+	margin-right:20px;
+}
+
+.subscribe label {
+	display: none;
+	height:0px;
+}
+
+
+.footer .stbF:last-child { 
+	margin-right:0px;
+}
+
+.ymaps-2-1-48-search,
+.ymaps-2-1-48-traffic,
+.ymaps-2-1-48-listbox,
+.ymaps-2-1-48-float-button,
+.ymaps-2-1-48-zoom__icon,
+.ymaps-2-1-47-zoom__icon,
+.ymaps-2-1-47-input__control,
+.ymaps-2-1-47-button__text {
+	display:none!important;
+}
+
+.meuBtn {
+	display:none;
+	float:right;
+	font-size:42px;
+}
+
+.banerLineInPage .banerText{
+    padding-top: 55px;
+    height: 190px;
+}
+
+.banerLineInPage h1 {
+	font-size:48px;
+}
+
+.naprWriper {
+	float:left;
+	width:100%;
+}
+
+.schoolNavi {
+	
+}
+
+.schoolNavi .turnavi{
+		min-width:200px;
+}
+
+.tourNavigationBlk {
+	width:100%;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:2px solid gray;
+	float:left;
+}
+
+#naprWriper1 .turnavi{
+	background-color:#ec4c3c;
+	;
+}
+
+#naprWriper1 .turnavi:hover{ 
+	background: #fbcb09;
+}
+
+.tourNavigationBlk .turnavi {
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    min-width: 17.35%;
+    width: auto;
+}
+
+.turInCatBlk {
+	float: left;
+	margin-bottom: 30px;
+	padding-bottom:30px;
+	border-bottom:2px solid #66b8d2;
+}
+
+.turInCatBlk .turThumb{ 
+	max-width: 390px;
+	margin-right:40px;
+}
+
+.turInCatBlk .text {
+	float:left;
+	max-width:769px;
+}
+
+.turInCatBlk .text a {
+	text-decoration:none;
+}
+
+.turInCatBlk .text h2{ 
+	border-bottom: 1px solid gray;
+	color: black;
+	margin-top: 0;
+	padding-bottom: 20px;
+}
+
+.turInCatBlk .text .ex{ 
+	margin-bottom:20px;
+}
+
+.breadcrumb {
+	margin:20px 0 0 0;
+	font-size:14px;
+}
+
+.tourInputBlkMr {
+	margin-top:40px;
+}
+
+.breadcrumb a{ 
+	color:black;
+}
+
+.aboutRegion {
+	width:100%;
+	float:left;
+	padding:20px 0px;
+	margin:20px 0px;
+	border-bottom:2px solid #66b8d2;
+	border-top:2px solid #66b8d2;
+}
+
+.aboutCategory { 
+	width:100%;
+	float:left;
+	padding:0px 0px 20px;
+}
+
+.aboutRegion h2{ 
+	margin-top:0px;
+}
+
+.allOtelInfoWriper {
+	width:100%;
+	float:left;
+	margin-bottom:40px;
+}
+
+.allOtelInfoWriper h1{
+	margin-top:0px;
+}
+
+.flagH2, .contactsContent h2, .allOtelInfoWriper h2{
+	background: rgba(0, 0, 0, 0) url("images/h2flag.png") no-repeat scroll 0 0;
+	float: left;
+	height: 67px;
+	margin-bottom: 0;
+	padding: 13px 0 0 5%;
+	text-transform: uppercase;
+	width: 95%;
+}
+
+.flagH2 {
+	border:none!important;
+	font-size:19px!important;
+	padding-left:1%;
+	width: 100%;
+}
+
+.iconFlgPl {
+    background: rgba(0, 0, 0, 0) url("images/iconFlgPl.png") no-repeat scroll center top / cover ;
+    color: black;
+    font-size: 18px;
+    height: 53px;
+    padding-right: 18px;
+    padding-top: 5px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 180px;
+}
+
+.allOtelInfoWriper ul{
+	list-style-image: url("images/listElem.png");
+	padding-left:20px;
+	display:inline-block;
+}
+
+
+.allOtelInfoWriper table{ 
+	width:100%;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	 border-spacing:0;
+}
+
+.allOtelInfoWriper tr td:first-child{ 
+	background-color:#e7e8ea;
+}
+
+.allOtelInfoWriper th,.allOtelInfoWriper td{ 
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	padding:5px 10px;
+}
+
+.otelInfoWriper {
+	width:100%;
+	float:left;
+}
+
+.otelInfoWriper .leftStlb{
+	width:48%;
+	float:left;
+	padding-right:2%;
+	min-height:100px;
+}
+
+.otelInfoWriper .rightStlb{
+	width:48%;
+	float:left;
+	padding-left:2%;
+	min-height:100px;
+	text-align: justify;
+}
+
+.allOtelInfoWriper .otelInfoWriper .rightStlb .baseDescr p{
+	margin-bottom:0px;
+}
+
+.allOtelInfoWriper .otelInfoWriper .rightStlb .baseDescr p{
+	margin-top:0px;
+}
+.allOtelInfoWriper .otelInfoWriper .rightStlb .baseDescr h2{
+	background:none;
+	margin-left:none;
+	padding:0px;
+	text-transform:none;
+	height:auto;
+	margin:10px 0;
+	width:100%;
+}
+
+.allOtelInfoWriper .otelInfoWriper .rightStlb .baseDescr h2:before {
+	font-family:"FontAwesome";
+	margin-right:10px;
+	color:#cfd800;
+	font-weight:normal;
+}
+
+#raspologenieM:before {
+	content: "\f041";
+}
+
+#teritoriaM:before {
+	content: "\f041";
+}
+
+#razmeshenieM:before {
+	content: "\f236";
+}
+
+#vnomerahM:before {content: "\f2cc";}
+#pitanieM:before {content: "\f0f4";}
+#razvlecenieM:before {content: "\f2a7";}
+#plazgM:before {content: "\f185";}
+#infroM:before {content: "\f277";}
+#videoM:before {content: "\f16a";}
+
+ 
+
+.otelInfoWriper .galery {
+	max-width:600px;
+}
+
+.otelInfoWriper .galery .bigImg {
+	background-color: #ebebeb;
+	display: table-cell;
+	height: 450px;
+	text-align: center;
+	vertical-align: middle;
+	width:600px;
+	position:relative;
+}
+
+.imgWiev {
+	width:600px;
+	height: 450px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.otelInfoWriper .galery .bigImg .imgWiev img{
+	vertical-align: middle;
+}
+
+.otelInfoWriper .galery .bigImg .imgWiev .horDir {
+	width:100%;
+}
+
+.otelInfoWriper .galery .bigImg .imgWiev .verDir {
+	height:100%;
+}
+
+.otelInfoWriper .galery .bigImg .btnStr {
+	position:absolute;
+	width:30px;
+	height:30px;
+	top:50%;
+	margin-top:-15px;
+	background: rgba(0, 0, 0, 0) url("images/lightboxbg.png") repeat scroll center center;
+	color:white;
+	line-height:30px;
+	cursor:pointer;
+}
+
+.otelInfoWriper .galery .bigImg .nextBtn { 
+	right:0px;
+}
+
+.otelInfoWriper .galery .prevyGalery {
+	width:100%;
+	max-width:600px;
+	height:100px;
+	margin-top:20px;
+	overflow:hidden;
+	position:relative;
+}
+
+.otelInfoWriper .galery .prevyGalery .lent{
+	height:100px;
+	width:auto;
+	position:absolute;
+}
+
+.otelInfoWriper .galery .prevyGalery .btnStr {
+	position:absolute;
+	width:30px;
+	height:70px;
+	padding-top:30px;
+	top:0px;
+	background: rgba(0, 0, 0, 0) url("images/lightboxbg.png") repeat scroll center center;
+	color:white;
+	line-height:30px;
+	cursor:pointer;
+	text-align:center;
+	z-index:1000000;
+}
+
+.otelInfoWriper .galery .prevyGalery .nextBtn { 
+	right:0px;
+}
+
+
+.otelInfoWriper .galery .prevyGalery .imgWraper {
+	width:100px;
+	height:100px;
+	float:left;
+	overflow:hidden;
+	margin-right:10px;
+	cursor:pointer;
+	background-size:cover;
+}
+
+.otelInfoWriper .galery .prevyGalery img {
+	height:100px;
+}
+
+.otelInfoWriper .galery .vertDirection img {
+	width:100px;
+}
+
+.otelInfoWriper .grafic {
+	
+}
+
+.otelInfoWriper .vprice {
+	
+}
+
+
+.otelInfoWriperBottom {
+	width:100%;
+	float:left;
+}
+
+.lightbox {
+	background: rgba(0, 0, 0, 0) url("images/lightboxbg.png") repeat scroll center center;
+	display: none;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000000;
+	font-family: "MyriadProRegular";
+	color:white;
+	
+}
+
+
+.lbTitle {
+	width:100%;
+	margin-top:10px;
+	float:left;
+}
+
+.fsMode {
+	overflow:hidden!important;
+}
+
+.lightbox .btnStr {
+	text-align:center;
+	font-size:42px;
+	padding-top:50vh;
+	cursor:pointer;
+}
+
+.lightbox .prevBtn {
+	float:left;
+	width:5%;
+	height:100%;
+}
+
+.lightbox .nextBtn {
+	float:right;
+	width:5%;
+	height:100%;
+}
+
+.lightbox .img {
+	float:left;
+	width:90%;
+	height:100%;
+	text-align:center;
+}
+
+.lightbox .img .verDir{ 
+	height:90%;
+	/*margin-top:5vh;*/
+}
+
+.lightbox .img .horDir{ 
+	width:100%;
+	/*margin-top:15vw;*/
+}
+
+.lightbox .closeBtn {
+	position:absolute;
+	right:30px;
+	top:30px;
+	font-size:32px;
+	cursor:pointer;
+}
+
+.srcImages {
+	display:none;
+}
+
+.schoolTourBlk {
+	
+}
+
+.schoolTourElems {
+	float: left;
+    width: 100%;
+	display:none;
+}
+
+#box1 {
+	display:block;
+}
+
+.schoolTourElems h2{ 
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.schoolTourElem {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom: 2px solid #66b8d2;
+	float:left;
+	width:100%;
+}
+
+.schoolTourElem .turThumb {
+	 max-width: 200px;
+	 margin-right:20px;
+}
+
+.schoolTourElem .turThumb img {
+	height: auto;
+    width: 200px;
+}
+
+.schoolTourElem .text {
+	float: left;
+    width: 975px;
+}
+
+.schoolTourElem .text .price {
+    background: rgba(0, 0, 0, 0) url("images/scPrBg.png") repeat scroll 0 0 / cover ;
+    display: block;
+    height: 49px;
+    margin-top: 10px;
+    width: 280px;
+	padding:5px 0;
+}
+
+.schoolTourElem .text .zag {
+	float:left;
+	margin:0 10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	height:100%;
+}
+
+.schoolTourElem .text p{ 
+	margin:0px;
+	float:left;
+	margin-left:20px;
+}
+
+.schoolTourElem .text h3 {
+	margin-top:0px;
+	margin-bottom:10px;
+}
+
+.PageContent h1{
+	text-align:left;
+	font-size:32px;
+	text-transform:uppercase;
+}
+
+.marginTopContent{
+	margin-top:40px;
+}
+
+.excursTourBlk .turElem:nth-child(3n){
+	margin-right:0px;
+}
+
+.mainAllTur .turElem:nth-child(3n){
+	margin-right:0px;
+}
+
+.tourInfoInPage {
+	/*background: rgba(0, 0, 0, 0) url("images/bg1.png") repeat scroll 0 0;*/
+	background-color:#a1a1a1;
+	color: white;
+	font-size: 24px;
+	min-height: 45px;
+	line-height: 45px;
+	padding: 0 2%;
+	margin-bottom:20px;
+}
+
+#gallery-1 .gallery-item {
+	margin-bottom:0px;
+}
+
+.tourInfoInPage br{
+	display:none;
+}
+
+.tourInfoInPage .info{
+	margin-right: 30px;
+}
+
+.tourInfoInPage .info i{
+	color: #c2c2c2;
+}
+
+.singlePage .gallery img, .singleTourPage .gallery img {
+	width:285px;
+	height:auto;
+	border:medium none !important;
+}
+
+.singleTourPage {
+	text-align:justify;
+}
+
+.singleTourPage h1 {
+	margin-bottom:15px;
+}
+
+.singleTourPage ul { 
+    padding-left: 20px;
+    display: inline-block;
+    width: 90%;
+}
+
+.aligncenter {
+	text-align: justify;
+    margin: 0 auto;
+    display: inherit;
+}
+
+.singleTourPage h2 { 
+	text-transform:uppercase;
+	font-size:38px;
+	margin:20px 0 0 0;
+	border-bottom:2px solid #a1a1a1;
+	padding-bottom:10px;
+}
+
+.singleTourPage h3 { 
+	text-transform:uppercase;
+	font-size:28px;
+	margin:15px 0;
+}
+
+#gallery-1 .gallery-item {
+	text-align:left!important;
+}
+
+.newsImg {
+	width:30%;
+	height:auto;
+	float:left;
+	margin:0 20px 20px 0;
+}
+
+.turInfoElem {
+	float:left
+}
+
+.uslElems {
+	
+}
+
+.commandElems {
+	float:left;
+	width:82%;
+	margin-top:60px;
+	margin-left:9%;
+}
+
+.uslElems .uslElem:nth-child(3n){
+	margin-right:0;
+}
+
+.uslElem {
+	min-height:470px;
+}
+
+.commandElem {
+	min-height:600px;
+	margin-top:20px;
+	max-width:310px;
+}
+
+.commandElems .commandElem:nth-child(3n){
+	margin-right:0;
+}
+
+.commandElem h3, .commandElem h2{
+	font-family: arial;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.commandElem h3 {
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.commandElem .turInfoElem .upp {
+	padding:0px;
+	margin-top:10px;
+}
+
+.uslElem .turThumb .text{ 
+	height:50px;
+}
+
+.uslElem .turThumb .text h2{ 
+	font-size: 20px;
+    margin: 0;
+}
+
+.uslElem .upp{
+	width:100%;
+	padding:0px;
+	margin-top:20px;
+}
+
+.svidetelstvoBlk {
+	float:left;
+	text-align:right;
+	max-width:550px;
+	width:100%;
+	margin-bottom:40px;
+}
+
+.svidetelstvoBlk img{ 
+
+	margin-right:20px;
+}
+
+.svidetelstvoBlk h2{  
+	margin-top:0px;
+}
+
+.content {
+	margin-bottom:40px;
+}
+
+.contentAlignAll {
+	text-align:justify;
+}
+
+.contentAbout p:first-child {
+	text-indent: 2.5em;
+}
+
+.catMTurNavigation {
+
+}
+
+.catMTurNavigationInHead {
+	padding:0 2%;
+	width:96%;
+}
+
+.catMTurNavigation  .reg{
+	 margin-right: 20px;
+	 border:none;
+	 text-transform:uppercase;
+}
+
+.catMTurNavigation  .regActive {
+	color:#5bb5d8;
+}
+
+.catMTurNavigation  .reg:hover { 
+	background:none;
+	color:#263e91;
+}
+
+.catMTurNavigation  a{
+ 	color:black;
+}
+
+.current-cat a, .catMTurNavigation  a:hover{ 
+	text-decoration:none;
+	background:linear-gradient(to right, #f4e30d, #d69826);
+}
+
+.catMTurNavigation ul {
+	list-style:none;
+	padding:0;
+	margin-left:0;
+}
+
+.catMTurNavigation ul li sup{
+	font-size:16px
+}
+
+.catMTurNavigation ul li{
+    display: inline-block;
+	margin-right: 10px;
+}
+
+.catMTurNavigation ul li a{
+	border: 1px dotted gray;
+    border-radius: 13px;
+    display: inline-block;
+    text-align:center;
+    padding: 5px 15px;
+	margin-bottom:5px;
+	margin-bottom:5px;
+}
+
+.catMTurNavigationInHead ul li a{ 
+	margin-right: 5px;
+}
+
+
+.dayElem {
+	width:100%;
+	float:left;
+	min-height:100px;
+}
+
+.dayElemImg {
+	float:left;
+	height:auto;
+	margin-right:20px;
+	max-width:290px;
+	
+}
+
+.dayElemImg .imgWriper{ 
+	float:left;
+	max-width:290px;
+	overflow:hidden;
+	text-align:center;
+	height:193px;
+	margin-bottom:20px;
+}
+
+.dayElemImg .imgWriper img{ 
+	width:auto;
+	max-height:193px;
+}
+
+.dayElemTxt ul:first-child, .dayElemTxt p:first-child{
+	margin-top:0px;
+}
+
+.dayElemTxt {
+	float:left;
+	width:885px;
+}
+
+.upBtn {
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	color:gray;
+	font-size:48px;
+	display:none;
+	z-index:9999999999;
+	cursor:pointer;
+}
+
+.contactsContent {
+	max-width:550px;
+	width:100%;
+	float:left;
+	
+}
+
+.contactsContent h2:before {
+	
+	font-family: "FontAwesome";
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+#contReg:before{content: "\f017";}
+#contPhone:before{content: "\f095";}
+#contAdr:before{content: "\f041";}
+#contMail:before{content: "\f1fa";}
+
+.pageNavi {
+	float:left;
+	width:100%;
+	margin-bottom:40px;
+}
+
+.pageNavi .pages {
+	display:none;
+}
+
+.pageNavi .current, .pageNavi a{ 
+	float:left;
+	padding:5px 10px;
+	border:1px solid gray;
+	margin-right: 5px;
+	color:black;
+}
+
+.pageNavi a:hover{ 
+	text-decoration:none;
+	background-color:#0f5da7;
+	color:white;
+}
+
+.pageNavi .current {
+	background-color:#0f5da7;
+	color:white;
+}
+
+.headBtnToggel {
+	width: 100%;
+    height: 28px;
+    text-align: center;
+    font-size: 28px;
+    position: absolute;
+    bottom: 0px;
+    /*
+	background: url(images/lineBg.png);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    */
+	background-color:#f3f3f5;
+	
+	padding: 7px 0;
+    color: #0f5da7;
+	cursor:pointer;
+}
+
+.onas-bottom-text {
+	text-align:justify;
+	background:url(images/whiteBg.png);
+	padding:10px 20px;
+	float:left;
+	margin-bottom:20px;
+}
+
+#direktor {
+	margin-top:-40px;
+}
+
+#dmitrievith{
+	margin-left:200px;
+}
+
+#bulgakter {
+	margin-right:0px;
+}
+
+.embed-responsive-16by9 {
+    padding-bottom: 56.25% !important;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.taAuthForm {
+	width:100%;
+	float:left;
+	margin-bottom:20px;
+}
+
+.taAuthForm input[type="password"], .taAuthForm  input[type="tel"], .taAuthForm  input[type="email"], .taAuthForm  input[type="text"] {
+	width:25%;
+	margin-bottom:10px;
+	border: 1px solid #a8a9ad;
+}
+
+
+.nprBloks {
+	width:100%;
+	min-height:50px;
+	float:left;
+	margin-bottom:20px;
+}
+
+.nprBloks a:last-child .naprBlk { 
+margin-right:0;
+}
+
+.naprBlk { 
+	width:100%;
+	max-width:290px;
+	height:370px;
+	margin-right:10px;
+	float:left;
+	cursor:pointer;
+}
+
+.naprBlk .wriper .naprBlkPointsH:first-child{  
+}
+
+.naprBlk .wriper .naprBlkPointsH:last-child{  
+}
+
+.naprBlk .wriper{  
+	width:auto;
+	float:left;
+	width:100%;
+	border-left:10px solid green;
+}
+
+.naprBlkPoints{ 
+    color: black;
+    float: left;
+    line-height: 28px;
+    margin-bottom: 5px;
+    margin-left: -21px;
+    width: 100%;
+}
+
+.naprBlkPoints .circleBot{
+	margin-top:0px;
+}
+	
+.naprBlkPoints .circleTop{ 
+	margin-top:0px;
+}
+
+.naprBlkPoints .circle{ 
+	width:25px;
+	height:25px;
+	border-radius:30px;
+	border:3px solid white;
+	background-color:green;
+	float:left;
+	margin-right:15px;
+}
+
+.naprBlkPoints:hover {
+	color:gray;
+}
+
+.naprBlkPoints:hover .circle{ 
+	background-color:lightblue;
+}
+
+.naprBlkPointsH .circle{ 
+	width:30px;
+	height:30px;
+}
+
+.naprBlkPointsH{ 
+	font-weight:bold;
+	font-size: 24px;
+	margin-left: -23px;
+	line-height: 35px;
+}
+
+
+.raspisanie{
+	width:100%;
+	float:left;
+	margin-bottom:20px;
+}
+
+.raspisanie table{
+    border-left: 1px solid grey;
+    border-spacing: 0;
+    border-top: 1px solid grey;
+    width: 100%;
+}
+
+.raspisanie table td, .raspisanie table th{ 
+	    border-right: 1px solid grey;
+	    border-bottom: 1px solid grey;
+		padding:10px 30px
+}
+
+.raspisanie table td{
+	background-color:white;
+}
+
+.raspisanie table th{
+	background:lightgray;
+	text-align:left;
+}
+
+.reisInfo {
+	color:#8dc63f;
+	font-size:20px;
+	cursor:pointer;
+}
+
+.raspisanie table td a{ 
+	font-size:20px;
+}
+
+.taCol {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 3%;
+    min-height: 300px;
+	min-width: 362px;
+    width: 30%;
+}
+
+#taColBig {
+	width: 60%;
+	margin-right: 5%;
+	padding-top:20px;
+}
+
+.cabina {
+	width:100%;
+	height:30px;
+	float:left;
+	background-color:green;
+	text-align:center;
+	line-height:30px;
+	color:white;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+
+
+
+.mesto {
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    width: 64px;
+	cursor:pointer;
+}
+
+/*
+#t1, #t2, #t3, #t4,
+#o1, #o2, #o3, #o4
+{ 
+	background-color:lightgray;
+}
+
+*/
+
+.sotrudnik {
+	background-color:lightgray;
+}
+
+.mesto-1 {
+	background-color:white;
+}
+
+#taCol2, #taCol1 {
+	width:38%;
+}
+
+#taCol1 .mesto:hover, #taCol2 .mesto:hover {
+	background-color:#f3e30d;
+	color:black;
+}
+
+#taCol1 .mesto-1:hover, #taCol2 .mesto-1:hover {
+	background-color:white;
+	color:white;
+	cursor:inherit;
+}
+
+.mesta .mesto:nth-child(2n) { 
+	margin-right:85px;
+}
+
+.mesta .lastRiad .mesto:nth-child(2n) { 
+	margin-right:10px;
+}
+
+.mesta .lastRiad .mesto:last-child { 
+	margin-right:0;
+}
+
+.mesta .mesto:nth-child(4n) { 
+	margin-right:0;
+}
+
+#taCol3 { 
+	margin-right:0;
+	width: 20%;
+	min-width: 240px;
+}
+
+.uOboznBlk {
+    float: left;
+    width: 100%;
+    height: 40px;
+    line-height: 25px;
+	font-size:14px;
+}
+
+
+.uObozn {
+	float: left;
+    height: 30px;
+    width: 55px;
+}
+
+.zanyato{background-color:red; cursor:default;}
+.zanyato:hover{background-color:red!important; color:white!important;}
+.zanyatoVami{background-color:lightblue;}
+.selected{background-color:#f3e30d; color:black;}
+
+.taMestoRezervForm {
+	width:100%;
+	float:left;
+	margin-bottom:20px;
+}
+
+.taMestoRezervForm  textarea, .taMestoRezervForm  select, .taMestoRezervForm input[type="password"], .taMestoRezervForm  input[type="tel"], .taMestoRezervForm  input[type="email"], .taMestoRezervForm  input[type="text"] {
+	width:96%;
+	margin-bottom:10px;
+	border:1px solid grey;
+}
+
+.taMestoRezervForm  textarea{
+	height:100px;
+} 
+.taMestoRezervForm  select {
+    width: 100.5%;	
+}
+
+.formNaprInform {
+    color: #636363;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+.taMestoRezervForm .btn{
+	width: 100px;
+    text-align: center;
+    height: 20px;
+}
+
+.reisinfo {
+	float:left;
+	width:90%;
+	height:80px;
+	background-color:#a1a1a1;
+	padding: 1% 5%;
+	margin-bottom:20px;
+}
+
+.reisinfo h2{
+    color: white;
+    font-weight: normal;
+    margin: 0;
+    text-transform: none;
+	font-size:18px;
+}
+
+#oformleniBtn { float: left;}
+#izmenitBtn {display:none; float: left;}
+#dellBtn {display:none; background-color:#ed145b; float: left; margin-left:10px;}
+
+.taMestoRezervForm i {
+	color:#00b4f1;
+	font-size:28px;
+	float:left;
+	width:40px;
+	display:none;
+}
+
+.hotelSelect { 
+	margin-bottom: 20px;
+	float:left;
+	width:100%;
+}
+
+.hotelInBron {
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+	color:black;
+}
+
+
+.hotelInBron a{
+	text-decoration:none;
+}
+
+.hotelInBronText{
+	line-height: 1.5;
+}
+ 
+.hotelInBron h2{ 
+	margin-top:0;
+	color:black;
+}
+
+.hotelInBron img{ 
+	float:left; margin-right: 20px;
+}
+
+.pricezapr {
+	color:orange;
+}
+
+.bronirovanie {color:green}
+
+.rs {
+	width:100%;
+	float:left;
+	margin-top:40px;
+	font-size:14px;
+}
+
+.addAnyMesto {
+    background-color: #e1e1e1;
+    border: 1px solid gray;
+    display: none;
+    float: left;
+    margin-top: 20px;
+    padding: 4%;
+    width: 97%;
+}
+
+.addAnyMesto input[type=checkbox]{
+	float:left;
+	margin-right:10px;
+} 
+
+.addAnyMesto label{ 
+	float:left;
+	width:auto;
+}	
+
+.addAnyMesto h2{
+    display: inline-block;
+    font-size: 18px;
+    width: 100%;
+}
+
+.addAnyMesto .formNaprInformAny {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.izmenitBtnAny {
+	display:none;
+}
+
+.addAnyMesto h2{
+	display:none;
+}
+
+.baseDescr iframe{
+  width:100%;
+}
+
+.tableWraper {
+	
+}
+
+.phoneSendRez {
+	width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pereklBlk {
+	width:100%;
+	float:left;
+	min-height:50px;
+}
+
+.pereklBlk a:last-child  .tereklBtn{
+	margin-right:0;
+}
+
+.tereklBtn {
+    background-color: #0f5da7;
+    float: left;
+    margin-right: 1%;
+    min-height: 50px;
+    width: 30.6%;
+    padding: 10px 1%;
+	cursor:pointer;
+}
+
+.tereklBtnSel, .tereklBtn:hover { 
+	background:#00bef2;
+}
+
+.tereklBtn .hd{
+	width:85%;
+	float:left;
+	height:50px;
+	color:white;
+	line-height:50px;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.tereklBtn .hd h2{ 
+	margin:0;
+}
+	
+.tereklBtn .img{ 
+	width:15%;
+	float:left;
+	height:50px;
+}
+
+.tereklBtn .img img{
+	height:100%;
+	width:auto;
+}
+
+.zakladkiBlk {
+	width:100%;
+	float:left;
+	margin-top:10px;
+	min-height:100px;
+}
+
+.zakladkiBlk { 
+
+}
+
+
+
+.zakladka {
+	width:100%;
+	float:left;
+	display:block;
+}
+
+#z1 {
+	display:block;
+}
+
+.newEarBg {
+	    background: rgba(0, 0, 0, 0) url(images/newearbg1.jpg) no-repeat scroll center bottom;
+    background-size: contain;
+	padding-bottom: 135px;
+}
+
+.ded-moroz-img {
+	position:absolute;
+}
+
+.hneBlk h2 { font-size:32px; }
+
+.hneBlk {
+width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 0 140px 0;
+	background: url(images/ugolok.png) no-repeat left bottom, url(images/ugolokR.png) no-repeat right bottom;
+	background-size: 50% auto;
+}
+
+.wp-video{
+    margin: 0 auto;
+}
+
+.TVExtSearchForm {
+	width: 100% !important;
+	margin-bottom: 40px !important;
+}
+
+.TVSearchResults {
+	width:100%!important;
+}
+
+.samolet {
+	opacity:0;
+    position: absolute;
+    width: 36px;
+    top: 0px;
+    left: 1px;
+	z-index:19000000;
+}
+
+.samolet {
+	-webkit-animation-name: spinSamolet;
+    -webkit-animation-duration: 5000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	animation-name: spinSamolet;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinSamolet {
+    0% {left:5%; opacity:0.3;}
+	
+    10% { left:10%; opacity:0.6; top: -5px;}
+	
+	20% {left:20%; opacity:1; top: -10px;}
+	
+	30% {left:30%; top: -15px;}
+	
+	40% {left:40%;top: -20px;}
+	
+	50% {left:50%; top: -25px;}
+	
+	60% {left:60%; top: -20px;}
+	
+	70% {left:70%; top: -15px;}
+	
+	80% {left:80%; opacity:0.7; top: -10px;}
+	
+	90% {left:90%; opacity:0.3; top: -5px;}
+	
+	100% {left:92%; opacity:0; top: 0px;}
+}
+
+
+@-webkit-keyframes spinSamolet {
+    0% {left:5%; opacity:0.3;}
+	
+    10% { left:10%; opacity:0.6; top: -5px;}
+	
+	20% {left:20%; opacity:1; top: -10px;}
+	
+	30% {left:30%; top: -15px;}
+	
+	40% {left:40%;top: -20px;}
+	
+	50% {left:50%; top: -25px;}
+	
+	60% {left:60%; top: -20px;}
+	
+	70% {left:70%; top: -15px;}
+	
+	80% {left:80%; opacity:0.7; top: -10px;}
+	
+	90% {left:90%; opacity:0.3; top: -5px;}
+	
+	100% {left:92%; opacity:0; top: 0px;}
+}
+
+.doma{
+    position: absolute;
+    width: 27px;
+    left: 1%;
+}
+
+.palmi{
+    position: absolute;
+    width: 27px;
+    right: 1%;
+}
+
+.polici {
+	float:left;
+	width:100%;
+	margin-top:10px;
+	text-align: center;
+}
+
+.polici2 {
+	text-align: left;
+	margin-top:0;
+	margin-bottom:10px;
+}
+
+.polici a{
+	color: darkred;
+}
+
+.errMsg{
+	background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+
+.okMsg{
+	background-color: green;
+}
+
+
+.taMenu {
+	width:100%;
+	float:left;
+	min-height:300px;
+	margin-top:20px;
+}
+
+.taMenu .taMenuElem:last-child{ 
+	margin-left:0%;	
+}
+
+
+.taMenuElem {
+	width:20%;
+	float:left;
+	height:250px;
+	margin-left:1%;	
+	text-align:center;
+}
+
+.taMenuElem span{
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: black;
+    margin-top: 20px;
+    text-transform: uppercase;
+}	
+.taMenuElem img{ 
+	width:45%;
+	height:auto;
+	float:none;
+}
+
+.avtobusWriper {
+	float:left;
+	width: 80%;
+}
+
+.rezervTable {
+	float:left;
+	width:92%;
+	min-height:100px;
+	
+}
+
+.rezervSession .rsMesto .upr{
+	width:20%;
+	float:left;
+	color:red;
+	text-align:right;
+	
+}
+
+.rezervSession .rsMesto .upr i.fa-id-card{ 
+	color:green;
+	margin-left:20px
+}
+
+.rezervSession .rsMesto .upr i{ 
+	cursor:pointer;
+}
+
+.rezervSession .rsMesto .direct{
+	width:60%;
+	float:left;
+}
+
+.rezervSession .rsMesto .mestonum{
+	width:20%;
+	float:left;
+}
+	
+.rezervSession .rsMesto{
+	width:96%;
+	padding:1% 2%;
+	float:left;
+	border:1px solid gray;
+	background-color:lightgray;
+	margin-bottom:10px;
+}
+
+.rezervTable .rezervSession:last-child {
+	margin-right:0;
+}
+
+.rezervSession {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+	min-height:10px;
+}
+
+.rezervSession .rsMestoRezerved {
+		background-color:lime;
+}
+
+.rsMestoForm {
+	display:none;
+}
+
+.rColl .riadi{
+	width:100%;
+	float:left;
+	    height: 30px;
+    line-height: 30px;
+	margin-bottom:10px;
+}
+
+.rColl {
+	width:7%;
+	float:left;
+	margin-top: 160px;
+}
+
+.resPass:hover {
+	color:#00b4f1;
+	text-decoration:underline;
+}
+
+.resPass {
+	cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+	width:100%;
+}
+
+.resPassForm {
+    margin-top: 10px;
+}
+
+#selectFormAdmin {
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.adminBronTable table td,
+.adminBronTable table th
+{
+	padding:10px 10px
+}
+
+.adminBronTable {
+	font-size:12px;
+}
+
+
+.admBronBlk {
+	width:100%;
+	float:left;
+	background-color:lightgray;
+	border:1px solid gray;
+	padding:1%;
+	margin-bottom:10px;
+}
+
+.admBronBlk .reis{float:left; width:8%}
+	
+.admBronBlk .direct{float:left; width:15%}
+
+.admBronBlk .mestoNum{float:left; width:8%}
+.admBronBlk .agent{float:left; width:8%}
+.admBronBlk .agentPhone{float:left; width:8%}
+.admBronBlk .dViezd{float:left; width:10%}
+.admBronBlk .dPrib{float:left; width:10%}
+.admBronBlk .dBron{float:left; width:11%}
+
+.admBronBlk .upr{float:right; width:8%}
+
+.excelImport {
+	float:right;
+	text-bottom:none;
+	color:green;
+	font-size:28px;
+	margin-top:5px;
+}
+
+.ressadkaImport {
+	float:right;
+	text-bottom:none;
+	color:green;
+	font-size:28px;
+	margin-top:5px;
+	    margin-left: 10px;
+}
+
+.ressadkaImportObr { 
+	color:#0072bc;
+}
+
+.admPanelWriper{
+	padding: 1% 0;
+    border-bottom: 1px solid gray;
+}
+
+.admBronBlkForm .btn{
+	min-width:100px;
+	width:auto;
+	min-height:30px;
+}
+
+.admBronBlkForm {
+	float:left;
+	width:100%;
+}
+
+.autMenu a{
+	color:white;
+}
+
+.autMenu {
+	position: fixed;
+    top: 0;
+    right: 10%;
+    padding: 6px 28px;
+    background: #00b4f1;
+    color: white;
+    z-index: 111111111;
+}
+
+.data, .type, .agent, .agentm, .reis, .mestoa, .direct {
+	float:left;
+	width:10%;
+}
+
+.tableContragent input[type=submit] {
+	margin-bottom:5px;
+}
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	min-height: 300px;
+	margin-top: 70px;
+}
+
+.recreation .line {
+    float: inherit;
+}
+
+.recreation-about__tours {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.recreation-about__tours-item {
+	width: 25%;
+	margin-bottom: 30px;
+}
+
+.recreation-about__tours-item a {
+	display: block;
+}
+
+.recreation-about {
+	width: 75%;
+	padding-right: 40px;
+}
+
+.recreation-sidebar {
+	width: 25%;
+}
+
+.recreation-sidebar__wid {
+	padding: 20px 10px;
+	margin-bottom: 20px;
+}
+
+.recreation-sidebar__wid input.inp-rest {
+	width: 96%;
+	margin-bottom: 10px;
+	border: 0;
+}
+
+.btn-rest {
+	display: block;
+	width: 100%;
+	background-color: #fcd408;
+	font-weight: 400;
+}
+
+.recreation-sidebar__wid h3 {
+	border-bottom: 1px solid gray;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.see-also__widget {
+
+	border: 1px solid #f1f1f3;
+}
+.sale-tour__widget a,
+.see-also__widget a {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f1f1f3;
+}
+
+.sale-tour__widget a {
+	border-color: #98989c
+}
+
+.sale-tour__widget a:last-child {
+	border-bottom: 0;
+}
+
+.recreation-country__item {
+	position: relative;
+	border-top: 1px solid #98989c;
+}
+
+.recreation-country__flag {
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	width: 30px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin-right: 30px;
+}
+
+.recreation-country__price {
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+.flag-turkey {
+	background-image: url(./images/icon/turkey-flag.svg);
+}
+
+.flag-dominic {
+	background-image: url(./images/icon/dominican-flag.svg);
+}
+
+.flag-uae {
+	background-image: url(./images/icon/united-arab-emirates.svg);
+}
+
+.flag-thai {
+	background-image: url(./images/icon/thailand-flag.svg);
+}
+
+.flag-viet {
+	background-image: url(./images/icon/vietnam.svg);
+}
+
+.recreation-country__item .recreation-country__link {
+	display: inline-block;
+	border: 0;
+}
+
+.see-also__widget a:last-child {
+	border-bottom: 0;
+}
+
+.sale-tour__widget {
+	background-color: #f1f1f3;
+}
+
+.miniNadp {
+	font-size: 12px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.naprMoreTurUl .reg{
+	margin:auto 20px;	
+}
+
+.naprMoreTurUl {
+	display:flex;
+}
+
+.formArctikBlk #azFormSubmit{
+	    width: auto;
+    display: inline;
+    height: 34px;
+	background-color:#0f5da7;
+	color:white;
+}
+
+.formArctikBlk input[type=text]{
+    width: 96%;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+}
+
+.modalline{
+    text-align: center;
+    font-size: 22px;
+}
+
+#lineIcon{
+	font-size:46px;
+}
+
+/* Арктик модал */
+
+.box-modal {
+	position: relative;
+	width: 500px;
+	padding: 16px;
+	background: #fff;
+	color: #3c3c3c;
+	font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	border-radius: 6px;
+}
+.box-modal_close { position: absolute; right: 10px; top: 6px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; }
+.box-modal_close:hover { color: #666; }
+
+.phoneInHead {
+	text-align: right;
+    margin: 5px 0;
+    font-size: 28px;
+}
+
+
+.phoneInHead a:hover{
+	text-decoration:none;
+}
+
+.arcticmodal-overlay, .arcticmodal-container {
+	z-index:90000000!important;
+}
+
+#rbModal{
+	width:100%;
+}
+
+@media screen and (max-width:1280px), handheld{ 
+	.allB .banerText {
+		left:-20px;
+	}
+}
+
+@media screen and (max-width:1280px), handheld {
+	.container {
+		width: 98%;
+	}
+}
+
+@media screen and (max-width:1120px), handheld {
+	.recreation-sidebar {
+		width: 250px;
+	}
+
+	.recreation-country__flag {
+		margin-right: 10px;
+	}
+}
+
+
+@media screen and (max-width:1080px), handheld{ 
+	.allB .banerText {
+		left:0;
+	}
+	.allB .banerText {
+		font-size:32px;
+	}
+
+	.banerLine {
+		height: 297px;
+	}
+	
+	.banerLineInPage {
+		height: 240px;
+	}
+	
+	.PageContent {
+		width:96%;
+		padding:0 2%;
+	}
+	
+	.turInCatBlk .turThumb {
+		max-width: 350px;
+	}
+	
+	
+	.turInCatBlk .text {
+		max-width: 640px;
+	}
+	
+	.perekluhatel {
+		margin-left: 320px;
+	}
+
+	
+	.osnNaprFixed, .osnNapr {
+		padding:0 2%;
+		width:96%;
+	}
+	
+	.osnNapr a {
+		width: 22%;
+		font-size: 16px;
+	}
+	
+	.mainAllTur {
+		width: 75%;
+		padding: 0px 12.5%;
+	}
+	
+	.formBlk {
+		padding: 50px 80px;
+	}
+	
+	#stbF1 {
+		padding-left:2%;
+		width:18%;
+	}
+	
+	.logo {
+		margin-left:10px;
+	}
+	
+	.turElem {
+		    max-width: 370px;
+	}
+	
+	.excursTourBlk .turElem:nth-child(3n){
+		margin-right:25px;
+	}
+
+	.mainAllTur .turElem:nth-child(3n){
+		margin-right:25px;
+	}
+	
+	.schoolTourElem .text {
+		width:800px;
+	}
+	
+	.gallery {
+		width:100%;
+	}
+	
+	.gallery-item img{
+		width:90%!important;
+	}
+	
+	.dayElemTxt {
+		width: 670px;
+	}
+	
+	.dayElemTxt img{ 
+		width:96%;
+		height:auto;
+	}
+	
+	.ded-moroz-img {
+	position:relative
+	}
+	
+	.aligncenter {
+		width:100%;
+	}
+	
+	.uslElems .uslElem:nth-child(3n) {
+		margin-right:25px;
+	}
+	
+	.commandElems {
+		margin-left:0;
+		width:100%;
+	}
+	
+	.commandElems .commandElem:nth-child(3n) {
+		margin-right:25px;
+	}
+	
+	.commandElem {
+    	max-width: 329px;
+		margin-right: 22px;
+	}
+}
+
+@media screen and (max-width:1024px), handheld{ 
+	.banerLine {
+		height: 280px;
+	}
+	
+	.allB .banerText {
+		font-size:28px;
+	}
+	
+	.perekluhatel {
+		margin-left: 300px;
+	}
+	
+	.mainAllTur {
+		width: 80%;
+		padding: 0px 10%;
+	}
+	
+		.banerLineInPage {
+		height: 240px;
+	}
+	
+	.turInCatBlk .turThumb {
+		max-width: 340px;
+	}
+	
+	
+	.turInCatBlk .text {
+		max-width: 600px;
+	}
+	
+	input[type="password"], input[type="tel"], input[type="email"], input[type="text"] {
+		width:180px;
+	}
+	
+	.schoolTourElem .text {
+		width:760px;
+	}
+	
+	.dayElemTxt {
+		width: 600px;
+	}
+	
+	.commandElem {
+    	max-width: 320px;
+		margin-right: 10px;
+	}
+
+}
+
+@media screen and (max-width:960px), handheld{ 
+	.osnNapr a {
+		font-size: 14px;
+	}
+	
+	.banerLine {
+		height: 263px;
+	}
+	
+	.perekluhatel {
+		margin-left: 270px;
+	}
+	
+	.mainAllTur {
+		width: 85%;
+		padding: 0px 7%;
+	}
+	
+	input[type="password"], input[type="tel"], input[type="email"], input[type="text"] {
+		width:160px;
+	}
+	
+	#stbF2 input[type="submit"] {
+		margin-bottom:10px
+	}
+	
+	.turInCatBlk .turThumb {
+		max-width: 319px;
+	}
+	
+	
+	.turInCatBlk .text {
+		max-width: 560px;
+	}
+	
+	.firstM {
+		display:none;
+	}
+	
+	.schoolTourElem .text {
+		width:695px;
+	}
+	
+	#direktor {
+		margin-top:20px;
+	}
+
+	#dmitrievith{
+		margin-left:0px;
+	}
+	
+	.commandElem {
+    	max-width: 390px;
+		margin-right: 25px;
+	}
+	
+	#bulgakter {
+		margin-right:25px;
+	}
+	
+	.commandElem {
+		height:665px;
+	}
+	
+	.menu ul li {
+		    margin-right: 25px;
+	}
+}
+
+@media screen and (max-width:846px), handheld {
+	.recreation-about__tours {
+		justify-content: center;
+	}
+	.recreation-about__tours-item {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width:800px), handheld{ 
+	.banerLine {
+		height: 220px;
+	}
+	
+	.perekluhatel {
+		margin-left: 180px;
+	}
+	
+	.allB .banerText {
+		font-size:28px;
+	}
+	
+	.osnNapr {
+		padding-left: 18px;
+	}
+	
+	.osnNapr a {
+		width:45%;
+	}
+	
+	.mainAllTur {
+		width: 95%;
+		padding: 0px 2.5%;
+	}
+	
+	.turElem {
+		max-width:354px;
+	}
+	
+	.zayavkaForm input[type="submit"] {
+		margin-top:10px;
+	}
+	
+	input[type="password"], input[type="tel"], input[type="email"], input[type="text"] {
+		width:173px;
+	}
+	
+	.mapInMain {
+		width:35%;
+	}
+	
+	#rightMap {
+		float:right;
+	}
+	
+	
+	.turInCatBlk .text, .turInCatBlk .turThumb {
+		max-width: 100%;
+		text-align: center;
+	}
+	
+	.turInCatBlk .text {
+		margin-top:20px;
+	}
+	
+	.turInCatBlk .text a{ 
+		float:none;
+		padding: 5px 20px;
+	}
+	
+	.otelInfoWriper .leftStlb {
+		width:100%;
+	}
+	.otelInfoWriper .rightStlb {
+		width:100%;
+	}
+	
+	.otelInfoWriper .galery {
+		height: 586px;
+		position: relative;
+		width: 100%;
+	}
+	
+	.otelInfoWriper .galery .bigImg {
+		left:50%;
+		margin-left:-300px;
+		position:absolute;
+	}
+	
+	.otelInfoWriper .galery .prevyGalery {
+		left:50%;
+		margin-left:-300px;
+		position:absolute;
+		bottom:0px;
+	}
+	
+	.otelInfoWriper .rightStlb {
+		padding-left:0px;
+	}
+	
+	.schoolTourElem .text {
+		width:545px;
+	}
+	
+	.dayElemTxt {
+		width: 100%;
+	}
+	
+	.commandElem {
+		height:630px;
+	}
+	
+		.menu {
+		width:100%;
+	}
+	
+	.menu ul{
+		width:100%;
+		margin-top:85px;
+		display:none;
+		border-top:1px solid gray;
+	}
+	
+	
+	.menu ul li{
+		width:100%;
+		text-align:center;
+	}
+	
+	.meuBtn { 
+		display:block;
+		margin-right:20px;
+	}
+	
+		.headLine {
+		min-height: 110px;
+	}
+	
+	.obrZvnBlk {
+		left:50%;
+		margin-left:-150px;
+	}
+	
+	.container {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.recreation-about {
+		width: 100%;
+	}
+
+	.recreation-about__tours-item {
+	    width: 25%;
+	}
+
+	.recreation-sidebar {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:812px), handheld{ 
+	.menu {
+		width:100%;
+	}
+	
+	.menu ul{
+		width:100%;
+		margin-top:40px;
+		display:none;
+		border-top:1px solid gray;
+	}
+	
+	
+	.menu ul li{
+		width:100%;
+		text-align:center;
+	}
+	
+	.meuBtn { 
+		display:block;
+		margin-right:20px;
+	}
+}
+
+@media screen and (max-width:768px), handheld{ 
+	.banerLine {
+		height: 210px;
+	}
+	
+	.allB .banerText {
+		font-size: 25px;
+		width: 350px;
+		height: 220px;
+		left: 50%;
+		margin-left: -175px;
+	}
+	
+	.pph {
+		margin-top:40px;
+	}
+	
+	.perekluhatel {
+		margin-left: 0px;
+	}
+	
+	.turElem {
+		max-width: 335px;
+	}
+	
+	.turInfoElem .boot .podr, .turInfoElem .boot .price {
+		font-size:22px;
+	}
+	
+	input[type="password"], input[type="tel"], input[type="email"], input[type="text"] {
+		width:150px;
+	}
+	
+	.turInCatBlk .text, .turInCatBlk .turThumb {
+		max-width: 100%;
+		text-align: center;
+	}
+	
+	.turInCatBlk .text {
+		margin-top:20px;
+	}
+	
+	.turInCatBlk .text a{ 
+		float:none;
+		padding: 5px 20px;
+	}
+	
+	.menu ul li {
+		margin-right:30px;
+	}
+	
+	.osnNapr {
+		padding-left: 15px;
+	}
+	
+	.schoolTourElem .text {
+		width:515px;
+	}
+	
+	.tereklBtn .hd h2{ 
+		margin:0;
+		font-size:14px;
+	}
+
+}
+
+@media screen and (max-width:720px), handheld{ 
+	.turElem {
+		max-width: 317px;
+	}
+}
+
+@media screen and (max-width:640px), handheld{ 
+	.perekluhatel {
+		margin-left: 70px;
+	}
+	
+	.turElem {
+		max-width: 390px;
+	}
+
+	
+	.osnNapr a {
+		width:45%;
+	}
+
+	.mainAllTur {
+		width: 60%;
+		padding: 0px 20%;
+	}
+	
+	
+	.headLine {
+		min-height: 110px;
+	}
+	
+	.logo {
+		width:120px;
+		height:auto;
+	}
+	
+	.allB .banerText{
+		margin-left:50px;
+	}
+	
+	.schoolTourElem .text {
+		width:390px;
+	}
+	
+	.commandElem {
+		height:665px;
+	}
+	
+	.tereklBtn {
+		width: 98%;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	
+	.tereklBtn .hd h2{ 
+		margin:0;
+		font-size:22px;
+	}
+
+	.recreation-about__tours-item {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width:480px), handheld{ 
+	
+	.phoneInHead {
+		float:right;
+		width:51%;
+		margin-right:20px;
+	}
+	
+	.naprMoreTurUl {
+		display: inherit;
+	}
+	
+	.hneBlk iframe {
+		    width: 96%;
+	}
+	.mainAllTur {
+		width: 96%;
+		padding: 0px 2%;
+	}
+	
+	.logo {
+		width:120px;
+		height:auto;
+	}
+	
+	.banerLine {
+		display:none;
+	}
+	
+	.osnNapr {
+		width:96%;
+		padding: 10px 2%;
+	}
+	
+	.osnNaprFixedTour .turnavi , .naprWriper .turnavi, .osnNapr a {
+		max-width: 95%!important;
+		width: 95%!important;
+		margin: 2px 0;
+	}
+
+	.menu ul{
+		width:100%;
+		margin-top:40px;
+		display:none;
+		border-top:1px solid gray;
+	}
+	
+	
+	.menu ul li{
+		width:100%;
+		text-align:center;
+	}
+	
+	.meuBtn { 
+		display:block;
+		width: 51%;
+		text-align:right;
+	}
+	
+	.headLine {
+		min-height: 110px;
+		 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	}
+	
+	.turInfoElem .boot .price {
+		font-size:22px;
+	}
+	
+	.turInfoElem .boot .podr {
+		font-size:18px;
+	}
+	
+	.turElem {
+		max-width: 100%;
+	}
+	
+	.aboutText {
+		width:92%;
+		padding: 0 3% 20px;
+	}
+	.aboutTextWriper {
+		background-image: linear-gradient(to right, #61bcd7 35%, transparent 35%, transparent 65%, #61bcd7 65%);
+	}
+	
+	.formBlk h2 {
+		font-size: 32px;
+		
+	}
+	
+	.formBlk {
+		padding: 11px 45px;
+		background-position: center center;
+		min-height: 290px;
+	}
+	
+	input[type="password"], input[type="tel"], input[type="email"], input[type="text"] {
+		width: 200px;
+		height: 25px;
+		margin-top: 5px;
+	}
+	
+	#stbF2, #stbF1, #stbF3, .stbF {
+		width:96%;
+		margin:0px;
+	}
+	
+	#stbF2, #stbF1, #stbF3 {
+		padding-left: 2%;
+		
+	}
+	
+	.stbF h2 {
+		max-width: 96%;
+	}
+	
+	.turInCatBlk .text, .turInCatBlk .turThumb {
+		max-width: 100%;
+		text-align: center;
+		margin-right:0px
+	}
+	
+
+	
+	.turInCatBlk .text {
+		margin-top:20px;
+	}
+	
+	.turInCatBlk .text a{ 
+		float:none;
+		padding: 5px 20px;
+	}
+	
+	.banerLineInPage {
+		display:block;
+		height:160px!important;
+	}
+	
+	.allB .banerText {
+		margin-left:10px;
+		width:50%;
+		margin-top:20px
+	}
+	
+	.allB .banerText h1 { 
+		margin-top:0px;
+		font-size:32px;
+	}
+	
+	.firstM{
+		display: none;
+	}
+	
+	.otelInfoWriper .galery {
+		height: 586px;
+		position: relative;
+		width: 100%;
+	}
+	
+	.otelInfoWriper .galery .bigImg {
+		left:0%;
+		margin-left:0px;
+		position:absolute;
+		width:100%;
+	}
+	
+	.otelInfoWriper .galery .prevyGalery {
+		left:0%;
+		margin-left:0px;
+		position:absolute;
+	}
+	
+	.catMTurNavigation  .reg {
+		width: 96%;
+		float: left;
+		margin-bottom: 20px;
+		font-weight: bold;
+		font-size: 22px;
+		margin-right:2%;
+		margin-left:2%;
+	}
+	
+	.schoolTourElem {
+		
+	}
+	
+	.schoolTourElem .turThumb {
+		max-width:100%;
+	}
+	
+	.schoolTourElem .turThumb img{
+		width:auto;
+	}
+	
+	.schoolTourElem .text {
+		width:100%;
+		margin-top:20px;
+	}
+	
+	.banerLineInPage {
+		display:none;
+	}
+	
+	.gallery {
+		
+	}
+	
+	.gallery-item{
+		float: left!important;
+		width: 100%!important;
+	}
+	
+	.gallery-item img{ 
+		width: 100%!important;
+	}
+	
+	.svidetelstvoBlk {
+		text-align:left;
+	}
+	
+	.commandElem {
+		height:765px;
+	}
+	
+	.contactsInCenter {
+		float: left;
+		position: relative;
+		width: 90%;
+		left: 0;
+		margin-left: 0;
+		padding: 0px 5%;
+	}
+	
+	.mapInMain {
+		width:100%;
+	}
+	
+	.lightbox .img {
+		width:84%;
+	}
+	
+	.lightbox .prevBtn, .lightbox .nextBtn {
+		width:8%;
+	}
+	
+	.lightbox .btnStr {
+		font-size:32px;
+	}
+}
+
+@media screen and (max-width:480px), handheld{
+	.firstM{
+		display: none;
+	}
+	
+	.allB .banerText {
+		width:85%;
+	}
+	
+	.turInCatBlk .turThumb img{ 
+		width:100%;
+	}
+	
+	.tableWraper {
+		float: left;
+		overflow: auto;
+		width: 100%;
+	}
+
+}
+
+
+@media screen and (max-width:375px), handheld{ 
+	
+	.phoneInHead {
+		font-size:22px;
+	}		
+	
+	.commandElem {
+		height:600px;
+	}
+	
+	.turInfoElem h2 {
+		font-size:20px;
+		font-weight:bold;
+	}
+	
+	.turThumb .text .line1 {
+		font-size:14px;
+	}
+	
+	.osnNaprFixedTour .turnavi , .naprWriper .turnavi, .osnNapr a {
+		max-width: 91%!important;
+		width: 91%!important;
+		margin: 2px 0;
+	}
+}

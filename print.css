@@ -1,0 +1,193 @@
+	.animTrigerMain 
+	{
+		width:100px;
+	}
+	
+	.banerLineInPage {
+		    height: 10px!important;
+			display:none;
+	}
+	.upBtn {
+		display: none;
+	}
+	.only-print {
+		font-size: 20px;
+		display: block!important;
+	}
+	#map-wrapper {
+		width: 94%!important;
+	}
+	.rasp-otel-wrap {
+		position: relative; 
+		top: -40px;
+	}
+	.map-wrapper {
+		max-width: 500px!important;
+		overflow-x: hidden!important;
+	}
+
+	.booking-title br,
+	.topTur,
+	.mini-sidebar__wrapper,
+	.jivo-no-transition,
+	jdiv,
+	.footer,
+	.contacts,
+	.prevyGalery,
+	.lbTitle,
+	.btnStr ,
+	.panelInstrument,
+	.breadcrumb,
+	.header-btn-wrapper,
+	.allB,
+	.menu-demo-menyu-container,
+	.g-button,
+	.excurs-slider,
+	.header-schedule__item-address:before,
+	.help-tour,
+	.motr-tour,
+	.header-soc-wrap,
+	.review,
+	.slick-dots {
+		display:none!important;
+	}
+
+	.booking-title{
+		color: black;
+		font-size: 33px;
+		display: table-cell;
+	}
+
+	
+
+	.booking-title-wrapper:before {
+		content: "";
+		background-color:  white;
+	}
+
+	a.header-schedule__item {
+		padding-left: 0;
+	}
+	#menu-demo-menyu {
+		display: none;
+	}
+	.logo-booking {
+		display: block!important;
+	}
+	.header-top {
+		display:none!important;
+	}
+	.header-top > * {
+		display: block!important;
+	}
+	.logo-booking {
+		display: block !important;
+		width: 110px!important;
+		height: 94px!important;
+		background-image: url(https://www.mirturizma46.ru/wp-content/themes/MirTurizma/images/mir/logo.png)!important;
+	}
+	.bus-tour {
+		display: none !important;
+	}
+	.booking-title, .booking-title-wrapper {
+		border: none!important;
+		background-color: #fff!important;
+		background-image: unset!important;
+		padding-top: 8px!important;
+		padding-bottom: 8px!important;
+		margin-top: 0!important;
+		margin-bottom: -40px!important;
+		height: auto!important;
+	}
+	
+	.flagH2, .contactsContent h2, .allOtelInfoWriper h2 {
+		background: rgba(0, 0, 0, 0) url(https://www.mirturizma46.ru/wp-content/themes/MirTurizma/images/h2flag.png) no-repeat scroll 0 0;
+	
+	}
+	
+	.otelInfoWriper .leftStlb,
+	.otelInfoWriper .rightStlb {
+		font-size:12px;
+	}
+	
+	.otelInfoWriper .galery .bigImg {
+		height:auto;
+	}
+	
+	.imgWiev {
+		height:auto;
+	}
+	
+	.allOtelInfoWriper .otelInfoWriper .rightStlb .baseDescr h2 {
+		margin: 5px 0;
+	}
+	
+	.flagH2, .contactsContent h2, .allOtelInfoWriper h2 {
+		height:auto;
+	}
+	
+	.logo {
+		width:100px;
+	}
+
+	.logo-print {
+		display: block!important;
+		width: 110px!important;
+		height: 94px!important;
+		background-image: url(https://www.mirturizma46.ru/wp-content/themes/MirTurizma/images/mir/logo.png)!important;
+	}
+
+	.dayElemImg .imgWriper:not(:first-child) {
+		/*display: none;*/
+	}
+	.dayElem {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+	}
+	.singleTourPage h1 {
+		font-size: 16px;
+	}
+	.tourInfoInPage {
+		margin-top: -10px;
+		margin-bottom: -10px;
+	}
+	.tourInfoInPage .info {
+		color: silver;
+		font-size: 16px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.singleTourPage h2 {
+		font-size: 16px;
+	}
+	.singleTourPage h3 {
+		font-size: 14px;
+	}
+	
+	.excurs-wrapper .container {
+		flex-direction: column;
+	}
+
+	.excurs-wrapper .container > * {
+		width:100%;
+		padding: 0;
+	}
+
+	.container,
+	.container-booking,
+	#page {
+		width: 100%;
+	}
+
+	.excurs-slider img {
+		width: 500px;
+		min-height: 350px;
+	}
+
+	.booking-title-wrapper .container-booking {
+    padding-left: 0px;
+	display: table-cell;
+}
