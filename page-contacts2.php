@@ -52,8 +52,8 @@ if(empty($banner)) {
 
 										myPlacemarkAdr = new ymaps.Placemark(<?php echo carbon_get_theme_option('mkad_map_point') ?>, {
 											  iconContent: '',
-											  balloonContent: 'Наш адрес: <b>г. Курск ул. Ленина 12 (ЦУМ, 3 этаж)</b><br/>Телефон: <b> +7 (4712) 306-000',
-											  hintContent: 'Наш адрес: <b>г. Курск ул. Ленина 12 (ЦУМ, 3 этаж)</b><br/>Телефон: <b> +7 (4712) 306-000',
+											  balloonContent: 'Наш адрес: <b>305029 г.Курск, ул. Хуторская 4, кв. 284</b><br/>Телефон: <b> +7 (4712) 306-000',
+											  hintContent: 'Наш адрес: <b>305029 г.Курск, ул. Хуторская 4, кв. 284</b><br/>Телефон: <b> +7 (4712) 306-000',
 										  }, {
 											iconLayout: 'default#image',
 											iconImageHref: '<?php bloginfo("template_url"); ?>/images/strl1.png',

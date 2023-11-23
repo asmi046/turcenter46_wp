@@ -80,9 +80,9 @@
 			<h2>Контакты</h2>
 
 			<div class="contacts__wrap">
-				<div class="contacts__img">
+				<!-- <div class="contacts__img">
 					<img src="<?php echo get_template_directory_uri();?>/images/contacts-img-big.jpg" alt="">
-				</div>
+				</div> -->
 				<div class="contacts__adress">
 					<!-- <div class="contacts__adress-text">Адрес:</div> -->
 					<?php $options = get_option( 'wpuniq_theme_options' ); ?>

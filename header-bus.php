@@ -82,7 +82,7 @@
               <a target="_blank" href="<?php echo carbon_get_theme_option("vk_lnk");?>" style="background-image: url(<?php echo get_template_directory_uri();?>/images/vk.svg);"></a>
               <a target="_blank" href="<?php echo carbon_get_theme_option("inst_lnk");?>" style="background-image: url(<?php echo get_template_directory_uri();?>/images/instagram.svg);"></a>
             </div>
-            <a href="mailto:mirturizma-kursk@yandex.ru" class="header-email">mirturizma-kursk@yandex.ru</a>
+            <a href="mailto:turcentr46@yandex.ru" class="header-email">turcentr46@yandex.ru</a>
           </div>
   				<a href="#" onclick="ym(29416892,'reachGoal','OpenRecall')" class="g-button obrzv-oppen">Заказать звонок</a>
   			</div>

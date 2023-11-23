@@ -1022,7 +1022,7 @@ input[type=submit]:hover,
 
 
 .btnRed {
-	background-color: #f33d44;
+	background-color: #f33d44!important;
 	color: white;
 }
 
@@ -9791,6 +9791,19 @@ a.header-schedule__item {
 .excurs-content {
 	padding-right: 50px;
 	text-align: justify;
+}
+
+.excurs-content table {
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	border-spacing: 0;
+}
+
+.excurs-content table th,
+.excurs-content table td{
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	padding: 5px;
 }
 
 .excurs-content img {
